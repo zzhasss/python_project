@@ -1,0 +1,42 @@
+trace_id,category,algorithm,input_id,target,case,n_steps,comparisons,swaps,writes,result
+bubble_sort__random_10,sorting,bubble_sort,random_10,,,90,45,35,0,4 5 12 14 55 70 76 87 95 95
+insertion_sort__random_10,sorting,insertion_sort,random_10,,,94,40,0,44,4 5 12 14 55 70 76 87 95 95
+quick_sort__random_10,sorting,quick_sort,random_10,,,58,32,13,0,4 5 12 14 55 70 76 87 95 95
+bubble_sort__sorted_10,sorting,bubble_sort,sorted_10,,,11,9,0,0,9 11 11 17 63 69 73 94 98 99
+insertion_sort__sorted_10,sorting,insertion_sort,sorted_10,,,28,9,0,9,9 11 11 17 63 69 73 94 98 99
+quick_sort__sorted_10,sorting,quick_sort,sorted_10,,,62,44,1,0,9 11 11 17 63 69 73 94 98 99
+bubble_sort__reversed_10,sorting,bubble_sort,reversed_10,,,100,45,45,0,9 21 32 37 39 48 57 70 79 91
+insertion_sort__reversed_10,sorting,insertion_sort,reversed_10,,,109,45,0,54,9 21 32 37 39 48 57 70 79 91
+quick_sort__reversed_10,sorting,quick_sort,reversed_10,,,69,45,5,0,9 21 32 37 39 48 57 70 79 91
+bubble_sort__nearly_sorted_10,sorting,bubble_sort,nearly_sorted_10,,,21,17,1,0,11 22 28 37 57 61 66 85 87 95
+insertion_sort__nearly_sorted_10,sorting,insertion_sort,nearly_sorted_10,,,30,10,0,10,11 22 28 37 57 61 66 85 87 95
+quick_sort__nearly_sorted_10,sorting,quick_sort,nearly_sorted_10,,,55,37,1,0,11 22 28 37 57 61 66 85 87 95
+bubble_sort__few_unique_10,sorting,bubble_sort,few_unique_10,,,66,42,16,0,14 14 14 39 88 88 88 88 99 99
+insertion_sort__few_unique_10,sorting,insertion_sort,few_unique_10,,,59,24,0,25,14 14 14 39 88 88 88 88 99 99
+quick_sort__few_unique_10,sorting,quick_sort,few_unique_10,,,49,22,12,0,14 14 14 39 88 88 88 88 99 99
+linear_search__sorted_20__first,search,linear_search,sorted_20,3,first,2,1,0,0,0
+binary_search__sorted_20__first,search,binary_search,sorted_20,3,first,8,4,0,0,0
+linear_search__sorted_20__middle,search,linear_search,sorted_20,52,middle,12,11,0,0,10
+binary_search__sorted_20__middle,search,binary_search,sorted_20,52,middle,8,4,0,0,10
+linear_search__sorted_20__last,search,linear_search,sorted_20,92,last,21,20,0,0,19
+binary_search__sorted_20__last,search,binary_search,sorted_20,92,last,10,5,0,0,19
+linear_search__sorted_20__absent,search,linear_search,sorted_20,100,absent,21,20,0,0,-1
+binary_search__sorted_20__absent,search,binary_search,sorted_20,100,absent,11,5,0,0,-1
+bfs__path_10,graph,bfs,path_10,,,30,0,0,0,0 1 2 3 4 5 6 7 8 9
+dfs__path_10,graph,dfs,path_10,,,21,0,0,0,0 1 2 3 4 5 6 7 8 9
+bfs__cycle_10,graph,bfs,cycle_10,,,32,0,0,0,0 1 9 2 8 3 7 4 6 5
+dfs__cycle_10,graph,dfs,cycle_10,,,23,0,0,0,0 1 2 3 4 5 6 7 8 9
+bfs__star_10,graph,bfs,star_10,,,30,0,0,0,0 1 2 3 4 5 6 7 8 9
+dfs__star_10,graph,dfs,star_10,,,21,0,0,0,0 1 2 3 4 5 6 7 8 9
+bfs__complete_10,graph,bfs,complete_10,,,102,0,0,0,0 1 2 3 4 5 6 7 8 9
+dfs__complete_10,graph,dfs,complete_10,,,93,0,0,0,0 1 2 3 4 5 6 7 8 9
+bfs__binary_tree_10,graph,bfs,binary_tree_10,,,30,0,0,0,0 1 2 3 4 5 6 7 8 9
+dfs__binary_tree_10,graph,dfs,binary_tree_10,,,21,0,0,0,0 1 3 7 8 4 9 2 5 6
+bfs__grid_10,graph,bfs,grid_10,,,35,0,0,0,0 1 3 2 4 6 5 7 8
+dfs__grid_10,graph,dfs,grid_10,,,27,0,0,0,0 1 2 5 4 3 6 7 8
+bfs__random_sparse_10,graph,bfs,random_sparse_10,,,50,0,0,0,0 3 4 7 8 9 2 1 6 5
+dfs__random_sparse_10,graph,dfs,random_sparse_10,,,41,0,0,0,0 3 2 7 1 4 8 5 6 9
+bfs__random_dense_10,graph,bfs,random_dense_10,,,50,0,0,0,0 4 7 9 3 6 8 1 5 2
+dfs__random_dense_10,graph,dfs,random_dense_10,,,41,0,0,0,0 4 3 1 2 9 5 7 8 6
+bfs__disconnected_10,graph,bfs,disconnected_10,,,25,0,0,0,0 1 2 3 4
+dfs__disconnected_10,graph,dfs,disconnected_10,,,21,0,0,0,0 1 2 3 4

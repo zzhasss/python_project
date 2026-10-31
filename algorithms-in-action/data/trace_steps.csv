@@ -1,0 +1,1688 @@
+trace_id,step,step_type,index_1,index_2,value,target,low,high,mid,node,parent,edge_from,edge_to,level,frontier_state,visited_state,array_state
+bubble_sort__random_10,0,compare,0,1,,,,,,,,,,,,,95 14 87 95 70 12 76 55 5 4
+bubble_sort__random_10,1,swap,0,1,,,,,,,,,,,,,14 95 87 95 70 12 76 55 5 4
+bubble_sort__random_10,2,compare,1,2,,,,,,,,,,,,,14 95 87 95 70 12 76 55 5 4
+bubble_sort__random_10,3,swap,1,2,,,,,,,,,,,,,14 87 95 95 70 12 76 55 5 4
+bubble_sort__random_10,4,compare,2,3,,,,,,,,,,,,,14 87 95 95 70 12 76 55 5 4
+bubble_sort__random_10,5,compare,3,4,,,,,,,,,,,,,14 87 95 95 70 12 76 55 5 4
+bubble_sort__random_10,6,swap,3,4,,,,,,,,,,,,,14 87 95 70 95 12 76 55 5 4
+bubble_sort__random_10,7,compare,4,5,,,,,,,,,,,,,14 87 95 70 95 12 76 55 5 4
+bubble_sort__random_10,8,swap,4,5,,,,,,,,,,,,,14 87 95 70 12 95 76 55 5 4
+bubble_sort__random_10,9,compare,5,6,,,,,,,,,,,,,14 87 95 70 12 95 76 55 5 4
+bubble_sort__random_10,10,swap,5,6,,,,,,,,,,,,,14 87 95 70 12 76 95 55 5 4
+bubble_sort__random_10,11,compare,6,7,,,,,,,,,,,,,14 87 95 70 12 76 95 55 5 4
+bubble_sort__random_10,12,swap,6,7,,,,,,,,,,,,,14 87 95 70 12 76 55 95 5 4
+bubble_sort__random_10,13,compare,7,8,,,,,,,,,,,,,14 87 95 70 12 76 55 95 5 4
+bubble_sort__random_10,14,swap,7,8,,,,,,,,,,,,,14 87 95 70 12 76 55 5 95 4
+bubble_sort__random_10,15,compare,8,9,,,,,,,,,,,,,14 87 95 70 12 76 55 5 95 4
+bubble_sort__random_10,16,swap,8,9,,,,,,,,,,,,,14 87 95 70 12 76 55 5 4 95
+bubble_sort__random_10,17,mark_sorted,9,,,,,,,,,,,,,,
+bubble_sort__random_10,18,compare,0,1,,,,,,,,,,,,,14 87 95 70 12 76 55 5 4 95
+bubble_sort__random_10,19,compare,1,2,,,,,,,,,,,,,14 87 95 70 12 76 55 5 4 95
+bubble_sort__random_10,20,compare,2,3,,,,,,,,,,,,,14 87 95 70 12 76 55 5 4 95
+bubble_sort__random_10,21,swap,2,3,,,,,,,,,,,,,14 87 70 95 12 76 55 5 4 95
+bubble_sort__random_10,22,compare,3,4,,,,,,,,,,,,,14 87 70 95 12 76 55 5 4 95
+bubble_sort__random_10,23,swap,3,4,,,,,,,,,,,,,14 87 70 12 95 76 55 5 4 95
+bubble_sort__random_10,24,compare,4,5,,,,,,,,,,,,,14 87 70 12 95 76 55 5 4 95
+bubble_sort__random_10,25,swap,4,5,,,,,,,,,,,,,14 87 70 12 76 95 55 5 4 95
+bubble_sort__random_10,26,compare,5,6,,,,,,,,,,,,,14 87 70 12 76 95 55 5 4 95
+bubble_sort__random_10,27,swap,5,6,,,,,,,,,,,,,14 87 70 12 76 55 95 5 4 95
+bubble_sort__random_10,28,compare,6,7,,,,,,,,,,,,,14 87 70 12 76 55 95 5 4 95
+bubble_sort__random_10,29,swap,6,7,,,,,,,,,,,,,14 87 70 12 76 55 5 95 4 95
+bubble_sort__random_10,30,compare,7,8,,,,,,,,,,,,,14 87 70 12 76 55 5 95 4 95
+bubble_sort__random_10,31,swap,7,8,,,,,,,,,,,,,14 87 70 12 76 55 5 4 95 95
+bubble_sort__random_10,32,mark_sorted,8,,,,,,,,,,,,,,
+bubble_sort__random_10,33,compare,0,1,,,,,,,,,,,,,14 87 70 12 76 55 5 4 95 95
+bubble_sort__random_10,34,compare,1,2,,,,,,,,,,,,,14 87 70 12 76 55 5 4 95 95
+bubble_sort__random_10,35,swap,1,2,,,,,,,,,,,,,14 70 87 12 76 55 5 4 95 95
+bubble_sort__random_10,36,compare,2,3,,,,,,,,,,,,,14 70 87 12 76 55 5 4 95 95
+bubble_sort__random_10,37,swap,2,3,,,,,,,,,,,,,14 70 12 87 76 55 5 4 95 95
+bubble_sort__random_10,38,compare,3,4,,,,,,,,,,,,,14 70 12 87 76 55 5 4 95 95
+bubble_sort__random_10,39,swap,3,4,,,,,,,,,,,,,14 70 12 76 87 55 5 4 95 95
+bubble_sort__random_10,40,compare,4,5,,,,,,,,,,,,,14 70 12 76 87 55 5 4 95 95
+bubble_sort__random_10,41,swap,4,5,,,,,,,,,,,,,14 70 12 76 55 87 5 4 95 95
+bubble_sort__random_10,42,compare,5,6,,,,,,,,,,,,,14 70 12 76 55 87 5 4 95 95
+bubble_sort__random_10,43,swap,5,6,,,,,,,,,,,,,14 70 12 76 55 5 87 4 95 95
+bubble_sort__random_10,44,compare,6,7,,,,,,,,,,,,,14 70 12 76 55 5 87 4 95 95
+bubble_sort__random_10,45,swap,6,7,,,,,,,,,,,,,14 70 12 76 55 5 4 87 95 95
+bubble_sort__random_10,46,mark_sorted,7,,,,,,,,,,,,,,
+bubble_sort__random_10,47,compare,0,1,,,,,,,,,,,,,14 70 12 76 55 5 4 87 95 95
+bubble_sort__random_10,48,compare,1,2,,,,,,,,,,,,,14 70 12 76 55 5 4 87 95 95
+bubble_sort__random_10,49,swap,1,2,,,,,,,,,,,,,14 12 70 76 55 5 4 87 95 95
+bubble_sort__random_10,50,compare,2,3,,,,,,,,,,,,,14 12 70 76 55 5 4 87 95 95
+bubble_sort__random_10,51,compare,3,4,,,,,,,,,,,,,14 12 70 76 55 5 4 87 95 95
+bubble_sort__random_10,52,swap,3,4,,,,,,,,,,,,,14 12 70 55 76 5 4 87 95 95
+bubble_sort__random_10,53,compare,4,5,,,,,,,,,,,,,14 12 70 55 76 5 4 87 95 95
+bubble_sort__random_10,54,swap,4,5,,,,,,,,,,,,,14 12 70 55 5 76 4 87 95 95
+bubble_sort__random_10,55,compare,5,6,,,,,,,,,,,,,14 12 70 55 5 76 4 87 95 95
+bubble_sort__random_10,56,swap,5,6,,,,,,,,,,,,,14 12 70 55 5 4 76 87 95 95
+bubble_sort__random_10,57,mark_sorted,6,,,,,,,,,,,,,,
+bubble_sort__random_10,58,compare,0,1,,,,,,,,,,,,,14 12 70 55 5 4 76 87 95 95
+bubble_sort__random_10,59,swap,0,1,,,,,,,,,,,,,12 14 70 55 5 4 76 87 95 95
+bubble_sort__random_10,60,compare,1,2,,,,,,,,,,,,,12 14 70 55 5 4 76 87 95 95
+bubble_sort__random_10,61,compare,2,3,,,,,,,,,,,,,12 14 70 55 5 4 76 87 95 95
+bubble_sort__random_10,62,swap,2,3,,,,,,,,,,,,,12 14 55 70 5 4 76 87 95 95
+bubble_sort__random_10,63,compare,3,4,,,,,,,,,,,,,12 14 55 70 5 4 76 87 95 95
+bubble_sort__random_10,64,swap,3,4,,,,,,,,,,,,,12 14 55 5 70 4 76 87 95 95
+bubble_sort__random_10,65,compare,4,5,,,,,,,,,,,,,12 14 55 5 70 4 76 87 95 95
+bubble_sort__random_10,66,swap,4,5,,,,,,,,,,,,,12 14 55 5 4 70 76 87 95 95
+bubble_sort__random_10,67,mark_sorted,5,,,,,,,,,,,,,,
+bubble_sort__random_10,68,compare,0,1,,,,,,,,,,,,,12 14 55 5 4 70 76 87 95 95
+bubble_sort__random_10,69,compare,1,2,,,,,,,,,,,,,12 14 55 5 4 70 76 87 95 95
+bubble_sort__random_10,70,compare,2,3,,,,,,,,,,,,,12 14 55 5 4 70 76 87 95 95
+bubble_sort__random_10,71,swap,2,3,,,,,,,,,,,,,12 14 5 55 4 70 76 87 95 95
+bubble_sort__random_10,72,compare,3,4,,,,,,,,,,,,,12 14 5 55 4 70 76 87 95 95
+bubble_sort__random_10,73,swap,3,4,,,,,,,,,,,,,12 14 5 4 55 70 76 87 95 95
+bubble_sort__random_10,74,mark_sorted,4,,,,,,,,,,,,,,
+bubble_sort__random_10,75,compare,0,1,,,,,,,,,,,,,12 14 5 4 55 70 76 87 95 95
+bubble_sort__random_10,76,compare,1,2,,,,,,,,,,,,,12 14 5 4 55 70 76 87 95 95
+bubble_sort__random_10,77,swap,1,2,,,,,,,,,,,,,12 5 14 4 55 70 76 87 95 95
+bubble_sort__random_10,78,compare,2,3,,,,,,,,,,,,,12 5 14 4 55 70 76 87 95 95
+bubble_sort__random_10,79,swap,2,3,,,,,,,,,,,,,12 5 4 14 55 70 76 87 95 95
+bubble_sort__random_10,80,mark_sorted,3,,,,,,,,,,,,,,
+bubble_sort__random_10,81,compare,0,1,,,,,,,,,,,,,12 5 4 14 55 70 76 87 95 95
+bubble_sort__random_10,82,swap,0,1,,,,,,,,,,,,,5 12 4 14 55 70 76 87 95 95
+bubble_sort__random_10,83,compare,1,2,,,,,,,,,,,,,5 12 4 14 55 70 76 87 95 95
+bubble_sort__random_10,84,swap,1,2,,,,,,,,,,,,,5 4 12 14 55 70 76 87 95 95
+bubble_sort__random_10,85,mark_sorted,2,,,,,,,,,,,,,,
+bubble_sort__random_10,86,compare,0,1,,,,,,,,,,,,,5 4 12 14 55 70 76 87 95 95
+bubble_sort__random_10,87,swap,0,1,,,,,,,,,,,,,4 5 12 14 55 70 76 87 95 95
+bubble_sort__random_10,88,mark_sorted,1,,,,,,,,,,,,,,
+bubble_sort__random_10,89,done,,,,,,,,,,,,,,,4 5 12 14 55 70 76 87 95 95
+insertion_sort__random_10,0,select_key,1,,14,,,,,,,,,,,,95 14 87 95 70 12 76 55 5 4
+insertion_sort__random_10,1,compare,0,1,14,,,,,,,,,,,,
+insertion_sort__random_10,2,shift,0,1,,,,,,,,,,,,,95 95 87 95 70 12 76 55 5 4
+insertion_sort__random_10,3,insert,0,,14,,,,,,,,,,,,14 95 87 95 70 12 76 55 5 4
+insertion_sort__random_10,4,select_key,2,,87,,,,,,,,,,,,14 95 87 95 70 12 76 55 5 4
+insertion_sort__random_10,5,compare,1,2,87,,,,,,,,,,,,
+insertion_sort__random_10,6,shift,1,2,,,,,,,,,,,,,14 95 95 95 70 12 76 55 5 4
+insertion_sort__random_10,7,compare,0,2,87,,,,,,,,,,,,
+insertion_sort__random_10,8,insert,1,,87,,,,,,,,,,,,14 87 95 95 70 12 76 55 5 4
+insertion_sort__random_10,9,select_key,3,,95,,,,,,,,,,,,14 87 95 95 70 12 76 55 5 4
+insertion_sort__random_10,10,compare,2,3,95,,,,,,,,,,,,
+insertion_sort__random_10,11,insert,3,,95,,,,,,,,,,,,14 87 95 95 70 12 76 55 5 4
+insertion_sort__random_10,12,select_key,4,,70,,,,,,,,,,,,14 87 95 95 70 12 76 55 5 4
+insertion_sort__random_10,13,compare,3,4,70,,,,,,,,,,,,
+insertion_sort__random_10,14,shift,3,4,,,,,,,,,,,,,14 87 95 95 95 12 76 55 5 4
+insertion_sort__random_10,15,compare,2,4,70,,,,,,,,,,,,
+insertion_sort__random_10,16,shift,2,3,,,,,,,,,,,,,14 87 95 95 95 12 76 55 5 4
+insertion_sort__random_10,17,compare,1,4,70,,,,,,,,,,,,
+insertion_sort__random_10,18,shift,1,2,,,,,,,,,,,,,14 87 87 95 95 12 76 55 5 4
+insertion_sort__random_10,19,compare,0,4,70,,,,,,,,,,,,
+insertion_sort__random_10,20,insert,1,,70,,,,,,,,,,,,14 70 87 95 95 12 76 55 5 4
+insertion_sort__random_10,21,select_key,5,,12,,,,,,,,,,,,14 70 87 95 95 12 76 55 5 4
+insertion_sort__random_10,22,compare,4,5,12,,,,,,,,,,,,
+insertion_sort__random_10,23,shift,4,5,,,,,,,,,,,,,14 70 87 95 95 95 76 55 5 4
+insertion_sort__random_10,24,compare,3,5,12,,,,,,,,,,,,
+insertion_sort__random_10,25,shift,3,4,,,,,,,,,,,,,14 70 87 95 95 95 76 55 5 4
+insertion_sort__random_10,26,compare,2,5,12,,,,,,,,,,,,
+insertion_sort__random_10,27,shift,2,3,,,,,,,,,,,,,14 70 87 87 95 95 76 55 5 4
+insertion_sort__random_10,28,compare,1,5,12,,,,,,,,,,,,
+insertion_sort__random_10,29,shift,1,2,,,,,,,,,,,,,14 70 70 87 95 95 76 55 5 4
+insertion_sort__random_10,30,compare,0,5,12,,,,,,,,,,,,
+insertion_sort__random_10,31,shift,0,1,,,,,,,,,,,,,14 14 70 87 95 95 76 55 5 4
+insertion_sort__random_10,32,insert,0,,12,,,,,,,,,,,,12 14 70 87 95 95 76 55 5 4
+insertion_sort__random_10,33,select_key,6,,76,,,,,,,,,,,,12 14 70 87 95 95 76 55 5 4
+insertion_sort__random_10,34,compare,5,6,76,,,,,,,,,,,,
+insertion_sort__random_10,35,shift,5,6,,,,,,,,,,,,,12 14 70 87 95 95 95 55 5 4
+insertion_sort__random_10,36,compare,4,6,76,,,,,,,,,,,,
+insertion_sort__random_10,37,shift,4,5,,,,,,,,,,,,,12 14 70 87 95 95 95 55 5 4
+insertion_sort__random_10,38,compare,3,6,76,,,,,,,,,,,,
+insertion_sort__random_10,39,shift,3,4,,,,,,,,,,,,,12 14 70 87 87 95 95 55 5 4
+insertion_sort__random_10,40,compare,2,6,76,,,,,,,,,,,,
+insertion_sort__random_10,41,insert,3,,76,,,,,,,,,,,,12 14 70 76 87 95 95 55 5 4
+insertion_sort__random_10,42,select_key,7,,55,,,,,,,,,,,,12 14 70 76 87 95 95 55 5 4
+insertion_sort__random_10,43,compare,6,7,55,,,,,,,,,,,,
+insertion_sort__random_10,44,shift,6,7,,,,,,,,,,,,,12 14 70 76 87 95 95 95 5 4
+insertion_sort__random_10,45,compare,5,7,55,,,,,,,,,,,,
+insertion_sort__random_10,46,shift,5,6,,,,,,,,,,,,,12 14 70 76 87 95 95 95 5 4
+insertion_sort__random_10,47,compare,4,7,55,,,,,,,,,,,,
+insertion_sort__random_10,48,shift,4,5,,,,,,,,,,,,,12 14 70 76 87 87 95 95 5 4
+insertion_sort__random_10,49,compare,3,7,55,,,,,,,,,,,,
+insertion_sort__random_10,50,shift,3,4,,,,,,,,,,,,,12 14 70 76 76 87 95 95 5 4
+insertion_sort__random_10,51,compare,2,7,55,,,,,,,,,,,,
+insertion_sort__random_10,52,shift,2,3,,,,,,,,,,,,,12 14 70 70 76 87 95 95 5 4
+insertion_sort__random_10,53,compare,1,7,55,,,,,,,,,,,,
+insertion_sort__random_10,54,insert,2,,55,,,,,,,,,,,,12 14 55 70 76 87 95 95 5 4
+insertion_sort__random_10,55,select_key,8,,5,,,,,,,,,,,,12 14 55 70 76 87 95 95 5 4
+insertion_sort__random_10,56,compare,7,8,5,,,,,,,,,,,,
+insertion_sort__random_10,57,shift,7,8,,,,,,,,,,,,,12 14 55 70 76 87 95 95 95 4
+insertion_sort__random_10,58,compare,6,8,5,,,,,,,,,,,,
+insertion_sort__random_10,59,shift,6,7,,,,,,,,,,,,,12 14 55 70 76 87 95 95 95 4
+insertion_sort__random_10,60,compare,5,8,5,,,,,,,,,,,,
+insertion_sort__random_10,61,shift,5,6,,,,,,,,,,,,,12 14 55 70 76 87 87 95 95 4
+insertion_sort__random_10,62,compare,4,8,5,,,,,,,,,,,,
+insertion_sort__random_10,63,shift,4,5,,,,,,,,,,,,,12 14 55 70 76 76 87 95 95 4
+insertion_sort__random_10,64,compare,3,8,5,,,,,,,,,,,,
+insertion_sort__random_10,65,shift,3,4,,,,,,,,,,,,,12 14 55 70 70 76 87 95 95 4
+insertion_sort__random_10,66,compare,2,8,5,,,,,,,,,,,,
+insertion_sort__random_10,67,shift,2,3,,,,,,,,,,,,,12 14 55 55 70 76 87 95 95 4
+insertion_sort__random_10,68,compare,1,8,5,,,,,,,,,,,,
+insertion_sort__random_10,69,shift,1,2,,,,,,,,,,,,,12 14 14 55 70 76 87 95 95 4
+insertion_sort__random_10,70,compare,0,8,5,,,,,,,,,,,,
+insertion_sort__random_10,71,shift,0,1,,,,,,,,,,,,,12 12 14 55 70 76 87 95 95 4
+insertion_sort__random_10,72,insert,0,,5,,,,,,,,,,,,5 12 14 55 70 76 87 95 95 4
+insertion_sort__random_10,73,select_key,9,,4,,,,,,,,,,,,5 12 14 55 70 76 87 95 95 4
+insertion_sort__random_10,74,compare,8,9,4,,,,,,,,,,,,
+insertion_sort__random_10,75,shift,8,9,,,,,,,,,,,,,5 12 14 55 70 76 87 95 95 95
+insertion_sort__random_10,76,compare,7,9,4,,,,,,,,,,,,
+insertion_sort__random_10,77,shift,7,8,,,,,,,,,,,,,5 12 14 55 70 76 87 95 95 95
+insertion_sort__random_10,78,compare,6,9,4,,,,,,,,,,,,
+insertion_sort__random_10,79,shift,6,7,,,,,,,,,,,,,5 12 14 55 70 76 87 87 95 95
+insertion_sort__random_10,80,compare,5,9,4,,,,,,,,,,,,
+insertion_sort__random_10,81,shift,5,6,,,,,,,,,,,,,5 12 14 55 70 76 76 87 95 95
+insertion_sort__random_10,82,compare,4,9,4,,,,,,,,,,,,
+insertion_sort__random_10,83,shift,4,5,,,,,,,,,,,,,5 12 14 55 70 70 76 87 95 95
+insertion_sort__random_10,84,compare,3,9,4,,,,,,,,,,,,
+insertion_sort__random_10,85,shift,3,4,,,,,,,,,,,,,5 12 14 55 55 70 76 87 95 95
+insertion_sort__random_10,86,compare,2,9,4,,,,,,,,,,,,
+insertion_sort__random_10,87,shift,2,3,,,,,,,,,,,,,5 12 14 14 55 70 76 87 95 95
+insertion_sort__random_10,88,compare,1,9,4,,,,,,,,,,,,
+insertion_sort__random_10,89,shift,1,2,,,,,,,,,,,,,5 12 12 14 55 70 76 87 95 95
+insertion_sort__random_10,90,compare,0,9,4,,,,,,,,,,,,
+insertion_sort__random_10,91,shift,0,1,,,,,,,,,,,,,5 5 12 14 55 70 76 87 95 95
+insertion_sort__random_10,92,insert,0,,4,,,,,,,,,,,,4 5 12 14 55 70 76 87 95 95
+insertion_sort__random_10,93,done,,,,,,,,,,,,,,,4 5 12 14 55 70 76 87 95 95
+quick_sort__random_10,0,pivot,9,,4,,0,9,,,,,,,,,
+quick_sort__random_10,1,compare,0,9,,,,,,,,,,,,,
+quick_sort__random_10,2,compare,1,9,,,,,,,,,,,,,
+quick_sort__random_10,3,compare,2,9,,,,,,,,,,,,,
+quick_sort__random_10,4,compare,3,9,,,,,,,,,,,,,
+quick_sort__random_10,5,compare,4,9,,,,,,,,,,,,,
+quick_sort__random_10,6,compare,5,9,,,,,,,,,,,,,
+quick_sort__random_10,7,compare,6,9,,,,,,,,,,,,,
+quick_sort__random_10,8,compare,7,9,,,,,,,,,,,,,
+quick_sort__random_10,9,compare,8,9,,,,,,,,,,,,,
+quick_sort__random_10,10,swap,0,9,,,,,,,,,,,,,4 14 87 95 70 12 76 55 5 95
+quick_sort__random_10,11,pivot_placed,0,,,,,,,,,,,,,,4 14 87 95 70 12 76 55 5 95
+quick_sort__random_10,12,pivot,9,,95,,1,9,,,,,,,,,
+quick_sort__random_10,13,compare,1,9,,,,,,,,,,,,,
+quick_sort__random_10,14,compare,2,9,,,,,,,,,,,,,
+quick_sort__random_10,15,compare,3,9,,,,,,,,,,,,,
+quick_sort__random_10,16,compare,4,9,,,,,,,,,,,,,
+quick_sort__random_10,17,swap,3,4,,,,,,,,,,,,,4 14 87 70 95 12 76 55 5 95
+quick_sort__random_10,18,compare,5,9,,,,,,,,,,,,,
+quick_sort__random_10,19,swap,4,5,,,,,,,,,,,,,4 14 87 70 12 95 76 55 5 95
+quick_sort__random_10,20,compare,6,9,,,,,,,,,,,,,
+quick_sort__random_10,21,swap,5,6,,,,,,,,,,,,,4 14 87 70 12 76 95 55 5 95
+quick_sort__random_10,22,compare,7,9,,,,,,,,,,,,,
+quick_sort__random_10,23,swap,6,7,,,,,,,,,,,,,4 14 87 70 12 76 55 95 5 95
+quick_sort__random_10,24,compare,8,9,,,,,,,,,,,,,
+quick_sort__random_10,25,swap,7,8,,,,,,,,,,,,,4 14 87 70 12 76 55 5 95 95
+quick_sort__random_10,26,swap,8,9,,,,,,,,,,,,,4 14 87 70 12 76 55 5 95 95
+quick_sort__random_10,27,pivot_placed,8,,,,,,,,,,,,,,4 14 87 70 12 76 55 5 95 95
+quick_sort__random_10,28,pivot,7,,5,,1,7,,,,,,,,,
+quick_sort__random_10,29,compare,1,7,,,,,,,,,,,,,
+quick_sort__random_10,30,compare,2,7,,,,,,,,,,,,,
+quick_sort__random_10,31,compare,3,7,,,,,,,,,,,,,
+quick_sort__random_10,32,compare,4,7,,,,,,,,,,,,,
+quick_sort__random_10,33,compare,5,7,,,,,,,,,,,,,
+quick_sort__random_10,34,compare,6,7,,,,,,,,,,,,,
+quick_sort__random_10,35,swap,1,7,,,,,,,,,,,,,4 5 87 70 12 76 55 14 95 95
+quick_sort__random_10,36,pivot_placed,1,,,,,,,,,,,,,,4 5 87 70 12 76 55 14 95 95
+quick_sort__random_10,37,pivot,7,,14,,2,7,,,,,,,,,
+quick_sort__random_10,38,compare,2,7,,,,,,,,,,,,,
+quick_sort__random_10,39,compare,3,7,,,,,,,,,,,,,
+quick_sort__random_10,40,compare,4,7,,,,,,,,,,,,,
+quick_sort__random_10,41,swap,2,4,,,,,,,,,,,,,4 5 12 70 87 76 55 14 95 95
+quick_sort__random_10,42,compare,5,7,,,,,,,,,,,,,
+quick_sort__random_10,43,compare,6,7,,,,,,,,,,,,,
+quick_sort__random_10,44,swap,3,7,,,,,,,,,,,,,4 5 12 14 87 76 55 70 95 95
+quick_sort__random_10,45,pivot_placed,3,,,,,,,,,,,,,,4 5 12 14 87 76 55 70 95 95
+quick_sort__random_10,46,pivot,7,,70,,4,7,,,,,,,,,
+quick_sort__random_10,47,compare,4,7,,,,,,,,,,,,,
+quick_sort__random_10,48,compare,5,7,,,,,,,,,,,,,
+quick_sort__random_10,49,compare,6,7,,,,,,,,,,,,,
+quick_sort__random_10,50,swap,4,6,,,,,,,,,,,,,4 5 12 14 55 76 87 70 95 95
+quick_sort__random_10,51,swap,5,7,,,,,,,,,,,,,4 5 12 14 55 70 87 76 95 95
+quick_sort__random_10,52,pivot_placed,5,,,,,,,,,,,,,,4 5 12 14 55 70 87 76 95 95
+quick_sort__random_10,53,pivot,7,,76,,6,7,,,,,,,,,
+quick_sort__random_10,54,compare,6,7,,,,,,,,,,,,,
+quick_sort__random_10,55,swap,6,7,,,,,,,,,,,,,4 5 12 14 55 70 76 87 95 95
+quick_sort__random_10,56,pivot_placed,6,,,,,,,,,,,,,,4 5 12 14 55 70 76 87 95 95
+quick_sort__random_10,57,done,,,,,,,,,,,,,,,4 5 12 14 55 70 76 87 95 95
+bubble_sort__sorted_10,0,compare,0,1,,,,,,,,,,,,,9 11 11 17 63 69 73 94 98 99
+bubble_sort__sorted_10,1,compare,1,2,,,,,,,,,,,,,9 11 11 17 63 69 73 94 98 99
+bubble_sort__sorted_10,2,compare,2,3,,,,,,,,,,,,,9 11 11 17 63 69 73 94 98 99
+bubble_sort__sorted_10,3,compare,3,4,,,,,,,,,,,,,9 11 11 17 63 69 73 94 98 99
+bubble_sort__sorted_10,4,compare,4,5,,,,,,,,,,,,,9 11 11 17 63 69 73 94 98 99
+bubble_sort__sorted_10,5,compare,5,6,,,,,,,,,,,,,9 11 11 17 63 69 73 94 98 99
+bubble_sort__sorted_10,6,compare,6,7,,,,,,,,,,,,,9 11 11 17 63 69 73 94 98 99
+bubble_sort__sorted_10,7,compare,7,8,,,,,,,,,,,,,9 11 11 17 63 69 73 94 98 99
+bubble_sort__sorted_10,8,compare,8,9,,,,,,,,,,,,,9 11 11 17 63 69 73 94 98 99
+bubble_sort__sorted_10,9,mark_sorted,9,,,,,,,,,,,,,,
+bubble_sort__sorted_10,10,done,,,,,,,,,,,,,,,9 11 11 17 63 69 73 94 98 99
+insertion_sort__sorted_10,0,select_key,1,,11,,,,,,,,,,,,9 11 11 17 63 69 73 94 98 99
+insertion_sort__sorted_10,1,compare,0,1,11,,,,,,,,,,,,
+insertion_sort__sorted_10,2,insert,1,,11,,,,,,,,,,,,9 11 11 17 63 69 73 94 98 99
+insertion_sort__sorted_10,3,select_key,2,,11,,,,,,,,,,,,9 11 11 17 63 69 73 94 98 99
+insertion_sort__sorted_10,4,compare,1,2,11,,,,,,,,,,,,
+insertion_sort__sorted_10,5,insert,2,,11,,,,,,,,,,,,9 11 11 17 63 69 73 94 98 99
+insertion_sort__sorted_10,6,select_key,3,,17,,,,,,,,,,,,9 11 11 17 63 69 73 94 98 99
+insertion_sort__sorted_10,7,compare,2,3,17,,,,,,,,,,,,
+insertion_sort__sorted_10,8,insert,3,,17,,,,,,,,,,,,9 11 11 17 63 69 73 94 98 99
+insertion_sort__sorted_10,9,select_key,4,,63,,,,,,,,,,,,9 11 11 17 63 69 73 94 98 99
+insertion_sort__sorted_10,10,compare,3,4,63,,,,,,,,,,,,
+insertion_sort__sorted_10,11,insert,4,,63,,,,,,,,,,,,9 11 11 17 63 69 73 94 98 99
+insertion_sort__sorted_10,12,select_key,5,,69,,,,,,,,,,,,9 11 11 17 63 69 73 94 98 99
+insertion_sort__sorted_10,13,compare,4,5,69,,,,,,,,,,,,
+insertion_sort__sorted_10,14,insert,5,,69,,,,,,,,,,,,9 11 11 17 63 69 73 94 98 99
+insertion_sort__sorted_10,15,select_key,6,,73,,,,,,,,,,,,9 11 11 17 63 69 73 94 98 99
+insertion_sort__sorted_10,16,compare,5,6,73,,,,,,,,,,,,
+insertion_sort__sorted_10,17,insert,6,,73,,,,,,,,,,,,9 11 11 17 63 69 73 94 98 99
+insertion_sort__sorted_10,18,select_key,7,,94,,,,,,,,,,,,9 11 11 17 63 69 73 94 98 99
+insertion_sort__sorted_10,19,compare,6,7,94,,,,,,,,,,,,
+insertion_sort__sorted_10,20,insert,7,,94,,,,,,,,,,,,9 11 11 17 63 69 73 94 98 99
+insertion_sort__sorted_10,21,select_key,8,,98,,,,,,,,,,,,9 11 11 17 63 69 73 94 98 99
+insertion_sort__sorted_10,22,compare,7,8,98,,,,,,,,,,,,
+insertion_sort__sorted_10,23,insert,8,,98,,,,,,,,,,,,9 11 11 17 63 69 73 94 98 99
+insertion_sort__sorted_10,24,select_key,9,,99,,,,,,,,,,,,9 11 11 17 63 69 73 94 98 99
+insertion_sort__sorted_10,25,compare,8,9,99,,,,,,,,,,,,
+insertion_sort__sorted_10,26,insert,9,,99,,,,,,,,,,,,9 11 11 17 63 69 73 94 98 99
+insertion_sort__sorted_10,27,done,,,,,,,,,,,,,,,9 11 11 17 63 69 73 94 98 99
+quick_sort__sorted_10,0,pivot,9,,99,,0,9,,,,,,,,,
+quick_sort__sorted_10,1,compare,0,9,,,,,,,,,,,,,
+quick_sort__sorted_10,2,compare,1,9,,,,,,,,,,,,,
+quick_sort__sorted_10,3,compare,2,9,,,,,,,,,,,,,
+quick_sort__sorted_10,4,compare,3,9,,,,,,,,,,,,,
+quick_sort__sorted_10,5,compare,4,9,,,,,,,,,,,,,
+quick_sort__sorted_10,6,compare,5,9,,,,,,,,,,,,,
+quick_sort__sorted_10,7,compare,6,9,,,,,,,,,,,,,
+quick_sort__sorted_10,8,compare,7,9,,,,,,,,,,,,,
+quick_sort__sorted_10,9,compare,8,9,,,,,,,,,,,,,
+quick_sort__sorted_10,10,pivot_placed,9,,,,,,,,,,,,,,9 11 11 17 63 69 73 94 98 99
+quick_sort__sorted_10,11,pivot,8,,98,,0,8,,,,,,,,,
+quick_sort__sorted_10,12,compare,0,8,,,,,,,,,,,,,
+quick_sort__sorted_10,13,compare,1,8,,,,,,,,,,,,,
+quick_sort__sorted_10,14,compare,2,8,,,,,,,,,,,,,
+quick_sort__sorted_10,15,compare,3,8,,,,,,,,,,,,,
+quick_sort__sorted_10,16,compare,4,8,,,,,,,,,,,,,
+quick_sort__sorted_10,17,compare,5,8,,,,,,,,,,,,,
+quick_sort__sorted_10,18,compare,6,8,,,,,,,,,,,,,
+quick_sort__sorted_10,19,compare,7,8,,,,,,,,,,,,,
+quick_sort__sorted_10,20,pivot_placed,8,,,,,,,,,,,,,,9 11 11 17 63 69 73 94 98 99
+quick_sort__sorted_10,21,pivot,7,,94,,0,7,,,,,,,,,
+quick_sort__sorted_10,22,compare,0,7,,,,,,,,,,,,,
+quick_sort__sorted_10,23,compare,1,7,,,,,,,,,,,,,
+quick_sort__sorted_10,24,compare,2,7,,,,,,,,,,,,,
+quick_sort__sorted_10,25,compare,3,7,,,,,,,,,,,,,
+quick_sort__sorted_10,26,compare,4,7,,,,,,,,,,,,,
+quick_sort__sorted_10,27,compare,5,7,,,,,,,,,,,,,
+quick_sort__sorted_10,28,compare,6,7,,,,,,,,,,,,,
+quick_sort__sorted_10,29,pivot_placed,7,,,,,,,,,,,,,,9 11 11 17 63 69 73 94 98 99
+quick_sort__sorted_10,30,pivot,6,,73,,0,6,,,,,,,,,
+quick_sort__sorted_10,31,compare,0,6,,,,,,,,,,,,,
+quick_sort__sorted_10,32,compare,1,6,,,,,,,,,,,,,
+quick_sort__sorted_10,33,compare,2,6,,,,,,,,,,,,,
+quick_sort__sorted_10,34,compare,3,6,,,,,,,,,,,,,
+quick_sort__sorted_10,35,compare,4,6,,,,,,,,,,,,,
+quick_sort__sorted_10,36,compare,5,6,,,,,,,,,,,,,
+quick_sort__sorted_10,37,pivot_placed,6,,,,,,,,,,,,,,9 11 11 17 63 69 73 94 98 99
+quick_sort__sorted_10,38,pivot,5,,69,,0,5,,,,,,,,,
+quick_sort__sorted_10,39,compare,0,5,,,,,,,,,,,,,
+quick_sort__sorted_10,40,compare,1,5,,,,,,,,,,,,,
+quick_sort__sorted_10,41,compare,2,5,,,,,,,,,,,,,
+quick_sort__sorted_10,42,compare,3,5,,,,,,,,,,,,,
+quick_sort__sorted_10,43,compare,4,5,,,,,,,,,,,,,
+quick_sort__sorted_10,44,pivot_placed,5,,,,,,,,,,,,,,9 11 11 17 63 69 73 94 98 99
+quick_sort__sorted_10,45,pivot,4,,63,,0,4,,,,,,,,,
+quick_sort__sorted_10,46,compare,0,4,,,,,,,,,,,,,
+quick_sort__sorted_10,47,compare,1,4,,,,,,,,,,,,,
+quick_sort__sorted_10,48,compare,2,4,,,,,,,,,,,,,
+quick_sort__sorted_10,49,compare,3,4,,,,,,,,,,,,,
+quick_sort__sorted_10,50,pivot_placed,4,,,,,,,,,,,,,,9 11 11 17 63 69 73 94 98 99
+quick_sort__sorted_10,51,pivot,3,,17,,0,3,,,,,,,,,
+quick_sort__sorted_10,52,compare,0,3,,,,,,,,,,,,,
+quick_sort__sorted_10,53,compare,1,3,,,,,,,,,,,,,
+quick_sort__sorted_10,54,compare,2,3,,,,,,,,,,,,,
+quick_sort__sorted_10,55,pivot_placed,3,,,,,,,,,,,,,,9 11 11 17 63 69 73 94 98 99
+quick_sort__sorted_10,56,pivot,2,,11,,0,2,,,,,,,,,
+quick_sort__sorted_10,57,compare,0,2,,,,,,,,,,,,,
+quick_sort__sorted_10,58,compare,1,2,,,,,,,,,,,,,
+quick_sort__sorted_10,59,swap,1,2,,,,,,,,,,,,,9 11 11 17 63 69 73 94 98 99
+quick_sort__sorted_10,60,pivot_placed,1,,,,,,,,,,,,,,9 11 11 17 63 69 73 94 98 99
+quick_sort__sorted_10,61,done,,,,,,,,,,,,,,,9 11 11 17 63 69 73 94 98 99
+bubble_sort__reversed_10,0,compare,0,1,,,,,,,,,,,,,91 79 70 57 48 39 37 32 21 9
+bubble_sort__reversed_10,1,swap,0,1,,,,,,,,,,,,,79 91 70 57 48 39 37 32 21 9
+bubble_sort__reversed_10,2,compare,1,2,,,,,,,,,,,,,79 91 70 57 48 39 37 32 21 9
+bubble_sort__reversed_10,3,swap,1,2,,,,,,,,,,,,,79 70 91 57 48 39 37 32 21 9
+bubble_sort__reversed_10,4,compare,2,3,,,,,,,,,,,,,79 70 91 57 48 39 37 32 21 9
+bubble_sort__reversed_10,5,swap,2,3,,,,,,,,,,,,,79 70 57 91 48 39 37 32 21 9
+bubble_sort__reversed_10,6,compare,3,4,,,,,,,,,,,,,79 70 57 91 48 39 37 32 21 9
+bubble_sort__reversed_10,7,swap,3,4,,,,,,,,,,,,,79 70 57 48 91 39 37 32 21 9
+bubble_sort__reversed_10,8,compare,4,5,,,,,,,,,,,,,79 70 57 48 91 39 37 32 21 9
+bubble_sort__reversed_10,9,swap,4,5,,,,,,,,,,,,,79 70 57 48 39 91 37 32 21 9
+bubble_sort__reversed_10,10,compare,5,6,,,,,,,,,,,,,79 70 57 48 39 91 37 32 21 9
+bubble_sort__reversed_10,11,swap,5,6,,,,,,,,,,,,,79 70 57 48 39 37 91 32 21 9
+bubble_sort__reversed_10,12,compare,6,7,,,,,,,,,,,,,79 70 57 48 39 37 91 32 21 9
+bubble_sort__reversed_10,13,swap,6,7,,,,,,,,,,,,,79 70 57 48 39 37 32 91 21 9
+bubble_sort__reversed_10,14,compare,7,8,,,,,,,,,,,,,79 70 57 48 39 37 32 91 21 9
+bubble_sort__reversed_10,15,swap,7,8,,,,,,,,,,,,,79 70 57 48 39 37 32 21 91 9
+bubble_sort__reversed_10,16,compare,8,9,,,,,,,,,,,,,79 70 57 48 39 37 32 21 91 9
+bubble_sort__reversed_10,17,swap,8,9,,,,,,,,,,,,,79 70 57 48 39 37 32 21 9 91
+bubble_sort__reversed_10,18,mark_sorted,9,,,,,,,,,,,,,,
+bubble_sort__reversed_10,19,compare,0,1,,,,,,,,,,,,,79 70 57 48 39 37 32 21 9 91
+bubble_sort__reversed_10,20,swap,0,1,,,,,,,,,,,,,70 79 57 48 39 37 32 21 9 91
+bubble_sort__reversed_10,21,compare,1,2,,,,,,,,,,,,,70 79 57 48 39 37 32 21 9 91
+bubble_sort__reversed_10,22,swap,1,2,,,,,,,,,,,,,70 57 79 48 39 37 32 21 9 91
+bubble_sort__reversed_10,23,compare,2,3,,,,,,,,,,,,,70 57 79 48 39 37 32 21 9 91
+bubble_sort__reversed_10,24,swap,2,3,,,,,,,,,,,,,70 57 48 79 39 37 32 21 9 91
+bubble_sort__reversed_10,25,compare,3,4,,,,,,,,,,,,,70 57 48 79 39 37 32 21 9 91
+bubble_sort__reversed_10,26,swap,3,4,,,,,,,,,,,,,70 57 48 39 79 37 32 21 9 91
+bubble_sort__reversed_10,27,compare,4,5,,,,,,,,,,,,,70 57 48 39 79 37 32 21 9 91
+bubble_sort__reversed_10,28,swap,4,5,,,,,,,,,,,,,70 57 48 39 37 79 32 21 9 91
+bubble_sort__reversed_10,29,compare,5,6,,,,,,,,,,,,,70 57 48 39 37 79 32 21 9 91
+bubble_sort__reversed_10,30,swap,5,6,,,,,,,,,,,,,70 57 48 39 37 32 79 21 9 91
+bubble_sort__reversed_10,31,compare,6,7,,,,,,,,,,,,,70 57 48 39 37 32 79 21 9 91
+bubble_sort__reversed_10,32,swap,6,7,,,,,,,,,,,,,70 57 48 39 37 32 21 79 9 91
+bubble_sort__reversed_10,33,compare,7,8,,,,,,,,,,,,,70 57 48 39 37 32 21 79 9 91
+bubble_sort__reversed_10,34,swap,7,8,,,,,,,,,,,,,70 57 48 39 37 32 21 9 79 91
+bubble_sort__reversed_10,35,mark_sorted,8,,,,,,,,,,,,,,
+bubble_sort__reversed_10,36,compare,0,1,,,,,,,,,,,,,70 57 48 39 37 32 21 9 79 91
+bubble_sort__reversed_10,37,swap,0,1,,,,,,,,,,,,,57 70 48 39 37 32 21 9 79 91
+bubble_sort__reversed_10,38,compare,1,2,,,,,,,,,,,,,57 70 48 39 37 32 21 9 79 91
+bubble_sort__reversed_10,39,swap,1,2,,,,,,,,,,,,,57 48 70 39 37 32 21 9 79 91
+bubble_sort__reversed_10,40,compare,2,3,,,,,,,,,,,,,57 48 70 39 37 32 21 9 79 91
+bubble_sort__reversed_10,41,swap,2,3,,,,,,,,,,,,,57 48 39 70 37 32 21 9 79 91
+bubble_sort__reversed_10,42,compare,3,4,,,,,,,,,,,,,57 48 39 70 37 32 21 9 79 91
+bubble_sort__reversed_10,43,swap,3,4,,,,,,,,,,,,,57 48 39 37 70 32 21 9 79 91
+bubble_sort__reversed_10,44,compare,4,5,,,,,,,,,,,,,57 48 39 37 70 32 21 9 79 91
+bubble_sort__reversed_10,45,swap,4,5,,,,,,,,,,,,,57 48 39 37 32 70 21 9 79 91
+bubble_sort__reversed_10,46,compare,5,6,,,,,,,,,,,,,57 48 39 37 32 70 21 9 79 91
+bubble_sort__reversed_10,47,swap,5,6,,,,,,,,,,,,,57 48 39 37 32 21 70 9 79 91
+bubble_sort__reversed_10,48,compare,6,7,,,,,,,,,,,,,57 48 39 37 32 21 70 9 79 91
+bubble_sort__reversed_10,49,swap,6,7,,,,,,,,,,,,,57 48 39 37 32 21 9 70 79 91
+bubble_sort__reversed_10,50,mark_sorted,7,,,,,,,,,,,,,,
+bubble_sort__reversed_10,51,compare,0,1,,,,,,,,,,,,,57 48 39 37 32 21 9 70 79 91
+bubble_sort__reversed_10,52,swap,0,1,,,,,,,,,,,,,48 57 39 37 32 21 9 70 79 91
+bubble_sort__reversed_10,53,compare,1,2,,,,,,,,,,,,,48 57 39 37 32 21 9 70 79 91
+bubble_sort__reversed_10,54,swap,1,2,,,,,,,,,,,,,48 39 57 37 32 21 9 70 79 91
+bubble_sort__reversed_10,55,compare,2,3,,,,,,,,,,,,,48 39 57 37 32 21 9 70 79 91
+bubble_sort__reversed_10,56,swap,2,3,,,,,,,,,,,,,48 39 37 57 32 21 9 70 79 91
+bubble_sort__reversed_10,57,compare,3,4,,,,,,,,,,,,,48 39 37 57 32 21 9 70 79 91
+bubble_sort__reversed_10,58,swap,3,4,,,,,,,,,,,,,48 39 37 32 57 21 9 70 79 91
+bubble_sort__reversed_10,59,compare,4,5,,,,,,,,,,,,,48 39 37 32 57 21 9 70 79 91
+bubble_sort__reversed_10,60,swap,4,5,,,,,,,,,,,,,48 39 37 32 21 57 9 70 79 91
+bubble_sort__reversed_10,61,compare,5,6,,,,,,,,,,,,,48 39 37 32 21 57 9 70 79 91
+bubble_sort__reversed_10,62,swap,5,6,,,,,,,,,,,,,48 39 37 32 21 9 57 70 79 91
+bubble_sort__reversed_10,63,mark_sorted,6,,,,,,,,,,,,,,
+bubble_sort__reversed_10,64,compare,0,1,,,,,,,,,,,,,48 39 37 32 21 9 57 70 79 91
+bubble_sort__reversed_10,65,swap,0,1,,,,,,,,,,,,,39 48 37 32 21 9 57 70 79 91
+bubble_sort__reversed_10,66,compare,1,2,,,,,,,,,,,,,39 48 37 32 21 9 57 70 79 91
+bubble_sort__reversed_10,67,swap,1,2,,,,,,,,,,,,,39 37 48 32 21 9 57 70 79 91
+bubble_sort__reversed_10,68,compare,2,3,,,,,,,,,,,,,39 37 48 32 21 9 57 70 79 91
+bubble_sort__reversed_10,69,swap,2,3,,,,,,,,,,,,,39 37 32 48 21 9 57 70 79 91
+bubble_sort__reversed_10,70,compare,3,4,,,,,,,,,,,,,39 37 32 48 21 9 57 70 79 91
+bubble_sort__reversed_10,71,swap,3,4,,,,,,,,,,,,,39 37 32 21 48 9 57 70 79 91
+bubble_sort__reversed_10,72,compare,4,5,,,,,,,,,,,,,39 37 32 21 48 9 57 70 79 91
+bubble_sort__reversed_10,73,swap,4,5,,,,,,,,,,,,,39 37 32 21 9 48 57 70 79 91
+bubble_sort__reversed_10,74,mark_sorted,5,,,,,,,,,,,,,,
+bubble_sort__reversed_10,75,compare,0,1,,,,,,,,,,,,,39 37 32 21 9 48 57 70 79 91
+bubble_sort__reversed_10,76,swap,0,1,,,,,,,,,,,,,37 39 32 21 9 48 57 70 79 91
+bubble_sort__reversed_10,77,compare,1,2,,,,,,,,,,,,,37 39 32 21 9 48 57 70 79 91
+bubble_sort__reversed_10,78,swap,1,2,,,,,,,,,,,,,37 32 39 21 9 48 57 70 79 91
+bubble_sort__reversed_10,79,compare,2,3,,,,,,,,,,,,,37 32 39 21 9 48 57 70 79 91
+bubble_sort__reversed_10,80,swap,2,3,,,,,,,,,,,,,37 32 21 39 9 48 57 70 79 91
+bubble_sort__reversed_10,81,compare,3,4,,,,,,,,,,,,,37 32 21 39 9 48 57 70 79 91
+bubble_sort__reversed_10,82,swap,3,4,,,,,,,,,,,,,37 32 21 9 39 48 57 70 79 91
+bubble_sort__reversed_10,83,mark_sorted,4,,,,,,,,,,,,,,
+bubble_sort__reversed_10,84,compare,0,1,,,,,,,,,,,,,37 32 21 9 39 48 57 70 79 91
+bubble_sort__reversed_10,85,swap,0,1,,,,,,,,,,,,,32 37 21 9 39 48 57 70 79 91
+bubble_sort__reversed_10,86,compare,1,2,,,,,,,,,,,,,32 37 21 9 39 48 57 70 79 91
+bubble_sort__reversed_10,87,swap,1,2,,,,,,,,,,,,,32 21 37 9 39 48 57 70 79 91
+bubble_sort__reversed_10,88,compare,2,3,,,,,,,,,,,,,32 21 37 9 39 48 57 70 79 91
+bubble_sort__reversed_10,89,swap,2,3,,,,,,,,,,,,,32 21 9 37 39 48 57 70 79 91
+bubble_sort__reversed_10,90,mark_sorted,3,,,,,,,,,,,,,,
+bubble_sort__reversed_10,91,compare,0,1,,,,,,,,,,,,,32 21 9 37 39 48 57 70 79 91
+bubble_sort__reversed_10,92,swap,0,1,,,,,,,,,,,,,21 32 9 37 39 48 57 70 79 91
+bubble_sort__reversed_10,93,compare,1,2,,,,,,,,,,,,,21 32 9 37 39 48 57 70 79 91
+bubble_sort__reversed_10,94,swap,1,2,,,,,,,,,,,,,21 9 32 37 39 48 57 70 79 91
+bubble_sort__reversed_10,95,mark_sorted,2,,,,,,,,,,,,,,
+bubble_sort__reversed_10,96,compare,0,1,,,,,,,,,,,,,21 9 32 37 39 48 57 70 79 91
+bubble_sort__reversed_10,97,swap,0,1,,,,,,,,,,,,,9 21 32 37 39 48 57 70 79 91
+bubble_sort__reversed_10,98,mark_sorted,1,,,,,,,,,,,,,,
+bubble_sort__reversed_10,99,done,,,,,,,,,,,,,,,9 21 32 37 39 48 57 70 79 91
+insertion_sort__reversed_10,0,select_key,1,,79,,,,,,,,,,,,91 79 70 57 48 39 37 32 21 9
+insertion_sort__reversed_10,1,compare,0,1,79,,,,,,,,,,,,
+insertion_sort__reversed_10,2,shift,0,1,,,,,,,,,,,,,91 91 70 57 48 39 37 32 21 9
+insertion_sort__reversed_10,3,insert,0,,79,,,,,,,,,,,,79 91 70 57 48 39 37 32 21 9
+insertion_sort__reversed_10,4,select_key,2,,70,,,,,,,,,,,,79 91 70 57 48 39 37 32 21 9
+insertion_sort__reversed_10,5,compare,1,2,70,,,,,,,,,,,,
+insertion_sort__reversed_10,6,shift,1,2,,,,,,,,,,,,,79 91 91 57 48 39 37 32 21 9
+insertion_sort__reversed_10,7,compare,0,2,70,,,,,,,,,,,,
+insertion_sort__reversed_10,8,shift,0,1,,,,,,,,,,,,,79 79 91 57 48 39 37 32 21 9
+insertion_sort__reversed_10,9,insert,0,,70,,,,,,,,,,,,70 79 91 57 48 39 37 32 21 9
+insertion_sort__reversed_10,10,select_key,3,,57,,,,,,,,,,,,70 79 91 57 48 39 37 32 21 9
+insertion_sort__reversed_10,11,compare,2,3,57,,,,,,,,,,,,
+insertion_sort__reversed_10,12,shift,2,3,,,,,,,,,,,,,70 79 91 91 48 39 37 32 21 9
+insertion_sort__reversed_10,13,compare,1,3,57,,,,,,,,,,,,
+insertion_sort__reversed_10,14,shift,1,2,,,,,,,,,,,,,70 79 79 91 48 39 37 32 21 9
+insertion_sort__reversed_10,15,compare,0,3,57,,,,,,,,,,,,
+insertion_sort__reversed_10,16,shift,0,1,,,,,,,,,,,,,70 70 79 91 48 39 37 32 21 9
+insertion_sort__reversed_10,17,insert,0,,57,,,,,,,,,,,,57 70 79 91 48 39 37 32 21 9
+insertion_sort__reversed_10,18,select_key,4,,48,,,,,,,,,,,,57 70 79 91 48 39 37 32 21 9
+insertion_sort__reversed_10,19,compare,3,4,48,,,,,,,,,,,,
+insertion_sort__reversed_10,20,shift,3,4,,,,,,,,,,,,,57 70 79 91 91 39 37 32 21 9
+insertion_sort__reversed_10,21,compare,2,4,48,,,,,,,,,,,,
+insertion_sort__reversed_10,22,shift,2,3,,,,,,,,,,,,,57 70 79 79 91 39 37 32 21 9
+insertion_sort__reversed_10,23,compare,1,4,48,,,,,,,,,,,,
+insertion_sort__reversed_10,24,shift,1,2,,,,,,,,,,,,,57 70 70 79 91 39 37 32 21 9
+insertion_sort__reversed_10,25,compare,0,4,48,,,,,,,,,,,,
+insertion_sort__reversed_10,26,shift,0,1,,,,,,,,,,,,,57 57 70 79 91 39 37 32 21 9
+insertion_sort__reversed_10,27,insert,0,,48,,,,,,,,,,,,48 57 70 79 91 39 37 32 21 9
+insertion_sort__reversed_10,28,select_key,5,,39,,,,,,,,,,,,48 57 70 79 91 39 37 32 21 9
+insertion_sort__reversed_10,29,compare,4,5,39,,,,,,,,,,,,
+insertion_sort__reversed_10,30,shift,4,5,,,,,,,,,,,,,48 57 70 79 91 91 37 32 21 9
+insertion_sort__reversed_10,31,compare,3,5,39,,,,,,,,,,,,
+insertion_sort__reversed_10,32,shift,3,4,,,,,,,,,,,,,48 57 70 79 79 91 37 32 21 9
+insertion_sort__reversed_10,33,compare,2,5,39,,,,,,,,,,,,
+insertion_sort__reversed_10,34,shift,2,3,,,,,,,,,,,,,48 57 70 70 79 91 37 32 21 9
+insertion_sort__reversed_10,35,compare,1,5,39,,,,,,,,,,,,
+insertion_sort__reversed_10,36,shift,1,2,,,,,,,,,,,,,48 57 57 70 79 91 37 32 21 9
+insertion_sort__reversed_10,37,compare,0,5,39,,,,,,,,,,,,
+insertion_sort__reversed_10,38,shift,0,1,,,,,,,,,,,,,48 48 57 70 79 91 37 32 21 9
+insertion_sort__reversed_10,39,insert,0,,39,,,,,,,,,,,,39 48 57 70 79 91 37 32 21 9
+insertion_sort__reversed_10,40,select_key,6,,37,,,,,,,,,,,,39 48 57 70 79 91 37 32 21 9
+insertion_sort__reversed_10,41,compare,5,6,37,,,,,,,,,,,,
+insertion_sort__reversed_10,42,shift,5,6,,,,,,,,,,,,,39 48 57 70 79 91 91 32 21 9
+insertion_sort__reversed_10,43,compare,4,6,37,,,,,,,,,,,,
+insertion_sort__reversed_10,44,shift,4,5,,,,,,,,,,,,,39 48 57 70 79 79 91 32 21 9
+insertion_sort__reversed_10,45,compare,3,6,37,,,,,,,,,,,,
+insertion_sort__reversed_10,46,shift,3,4,,,,,,,,,,,,,39 48 57 70 70 79 91 32 21 9
+insertion_sort__reversed_10,47,compare,2,6,37,,,,,,,,,,,,
+insertion_sort__reversed_10,48,shift,2,3,,,,,,,,,,,,,39 48 57 57 70 79 91 32 21 9
+insertion_sort__reversed_10,49,compare,1,6,37,,,,,,,,,,,,
+insertion_sort__reversed_10,50,shift,1,2,,,,,,,,,,,,,39 48 48 57 70 79 91 32 21 9
+insertion_sort__reversed_10,51,compare,0,6,37,,,,,,,,,,,,
+insertion_sort__reversed_10,52,shift,0,1,,,,,,,,,,,,,39 39 48 57 70 79 91 32 21 9
+insertion_sort__reversed_10,53,insert,0,,37,,,,,,,,,,,,37 39 48 57 70 79 91 32 21 9
+insertion_sort__reversed_10,54,select_key,7,,32,,,,,,,,,,,,37 39 48 57 70 79 91 32 21 9
+insertion_sort__reversed_10,55,compare,6,7,32,,,,,,,,,,,,
+insertion_sort__reversed_10,56,shift,6,7,,,,,,,,,,,,,37 39 48 57 70 79 91 91 21 9
+insertion_sort__reversed_10,57,compare,5,7,32,,,,,,,,,,,,
+insertion_sort__reversed_10,58,shift,5,6,,,,,,,,,,,,,37 39 48 57 70 79 79 91 21 9
+insertion_sort__reversed_10,59,compare,4,7,32,,,,,,,,,,,,
+insertion_sort__reversed_10,60,shift,4,5,,,,,,,,,,,,,37 39 48 57 70 70 79 91 21 9
+insertion_sort__reversed_10,61,compare,3,7,32,,,,,,,,,,,,
+insertion_sort__reversed_10,62,shift,3,4,,,,,,,,,,,,,37 39 48 57 57 70 79 91 21 9
+insertion_sort__reversed_10,63,compare,2,7,32,,,,,,,,,,,,
+insertion_sort__reversed_10,64,shift,2,3,,,,,,,,,,,,,37 39 48 48 57 70 79 91 21 9
+insertion_sort__reversed_10,65,compare,1,7,32,,,,,,,,,,,,
+insertion_sort__reversed_10,66,shift,1,2,,,,,,,,,,,,,37 39 39 48 57 70 79 91 21 9
+insertion_sort__reversed_10,67,compare,0,7,32,,,,,,,,,,,,
+insertion_sort__reversed_10,68,shift,0,1,,,,,,,,,,,,,37 37 39 48 57 70 79 91 21 9
+insertion_sort__reversed_10,69,insert,0,,32,,,,,,,,,,,,32 37 39 48 57 70 79 91 21 9
+insertion_sort__reversed_10,70,select_key,8,,21,,,,,,,,,,,,32 37 39 48 57 70 79 91 21 9
+insertion_sort__reversed_10,71,compare,7,8,21,,,,,,,,,,,,
+insertion_sort__reversed_10,72,shift,7,8,,,,,,,,,,,,,32 37 39 48 57 70 79 91 91 9
+insertion_sort__reversed_10,73,compare,6,8,21,,,,,,,,,,,,
+insertion_sort__reversed_10,74,shift,6,7,,,,,,,,,,,,,32 37 39 48 57 70 79 79 91 9
+insertion_sort__reversed_10,75,compare,5,8,21,,,,,,,,,,,,
+insertion_sort__reversed_10,76,shift,5,6,,,,,,,,,,,,,32 37 39 48 57 70 70 79 91 9
+insertion_sort__reversed_10,77,compare,4,8,21,,,,,,,,,,,,
+insertion_sort__reversed_10,78,shift,4,5,,,,,,,,,,,,,32 37 39 48 57 57 70 79 91 9
+insertion_sort__reversed_10,79,compare,3,8,21,,,,,,,,,,,,
+insertion_sort__reversed_10,80,shift,3,4,,,,,,,,,,,,,32 37 39 48 48 57 70 79 91 9
+insertion_sort__reversed_10,81,compare,2,8,21,,,,,,,,,,,,
+insertion_sort__reversed_10,82,shift,2,3,,,,,,,,,,,,,32 37 39 39 48 57 70 79 91 9
+insertion_sort__reversed_10,83,compare,1,8,21,,,,,,,,,,,,
+insertion_sort__reversed_10,84,shift,1,2,,,,,,,,,,,,,32 37 37 39 48 57 70 79 91 9
+insertion_sort__reversed_10,85,compare,0,8,21,,,,,,,,,,,,
+insertion_sort__reversed_10,86,shift,0,1,,,,,,,,,,,,,32 32 37 39 48 57 70 79 91 9
+insertion_sort__reversed_10,87,insert,0,,21,,,,,,,,,,,,21 32 37 39 48 57 70 79 91 9
+insertion_sort__reversed_10,88,select_key,9,,9,,,,,,,,,,,,21 32 37 39 48 57 70 79 91 9
+insertion_sort__reversed_10,89,compare,8,9,9,,,,,,,,,,,,
+insertion_sort__reversed_10,90,shift,8,9,,,,,,,,,,,,,21 32 37 39 48 57 70 79 91 91
+insertion_sort__reversed_10,91,compare,7,9,9,,,,,,,,,,,,
+insertion_sort__reversed_10,92,shift,7,8,,,,,,,,,,,,,21 32 37 39 48 57 70 79 79 91
+insertion_sort__reversed_10,93,compare,6,9,9,,,,,,,,,,,,
+insertion_sort__reversed_10,94,shift,6,7,,,,,,,,,,,,,21 32 37 39 48 57 70 70 79 91
+insertion_sort__reversed_10,95,compare,5,9,9,,,,,,,,,,,,
+insertion_sort__reversed_10,96,shift,5,6,,,,,,,,,,,,,21 32 37 39 48 57 57 70 79 91
+insertion_sort__reversed_10,97,compare,4,9,9,,,,,,,,,,,,
+insertion_sort__reversed_10,98,shift,4,5,,,,,,,,,,,,,21 32 37 39 48 48 57 70 79 91
+insertion_sort__reversed_10,99,compare,3,9,9,,,,,,,,,,,,
+insertion_sort__reversed_10,100,shift,3,4,,,,,,,,,,,,,21 32 37 39 39 48 57 70 79 91
+insertion_sort__reversed_10,101,compare,2,9,9,,,,,,,,,,,,
+insertion_sort__reversed_10,102,shift,2,3,,,,,,,,,,,,,21 32 37 37 39 48 57 70 79 91
+insertion_sort__reversed_10,103,compare,1,9,9,,,,,,,,,,,,
+insertion_sort__reversed_10,104,shift,1,2,,,,,,,,,,,,,21 32 32 37 39 48 57 70 79 91
+insertion_sort__reversed_10,105,compare,0,9,9,,,,,,,,,,,,
+insertion_sort__reversed_10,106,shift,0,1,,,,,,,,,,,,,21 21 32 37 39 48 57 70 79 91
+insertion_sort__reversed_10,107,insert,0,,9,,,,,,,,,,,,9 21 32 37 39 48 57 70 79 91
+insertion_sort__reversed_10,108,done,,,,,,,,,,,,,,,9 21 32 37 39 48 57 70 79 91
+quick_sort__reversed_10,0,pivot,9,,9,,0,9,,,,,,,,,
+quick_sort__reversed_10,1,compare,0,9,,,,,,,,,,,,,
+quick_sort__reversed_10,2,compare,1,9,,,,,,,,,,,,,
+quick_sort__reversed_10,3,compare,2,9,,,,,,,,,,,,,
+quick_sort__reversed_10,4,compare,3,9,,,,,,,,,,,,,
+quick_sort__reversed_10,5,compare,4,9,,,,,,,,,,,,,
+quick_sort__reversed_10,6,compare,5,9,,,,,,,,,,,,,
+quick_sort__reversed_10,7,compare,6,9,,,,,,,,,,,,,
+quick_sort__reversed_10,8,compare,7,9,,,,,,,,,,,,,
+quick_sort__reversed_10,9,compare,8,9,,,,,,,,,,,,,
+quick_sort__reversed_10,10,swap,0,9,,,,,,,,,,,,,9 79 70 57 48 39 37 32 21 91
+quick_sort__reversed_10,11,pivot_placed,0,,,,,,,,,,,,,,9 79 70 57 48 39 37 32 21 91
+quick_sort__reversed_10,12,pivot,9,,91,,1,9,,,,,,,,,
+quick_sort__reversed_10,13,compare,1,9,,,,,,,,,,,,,
+quick_sort__reversed_10,14,compare,2,9,,,,,,,,,,,,,
+quick_sort__reversed_10,15,compare,3,9,,,,,,,,,,,,,
+quick_sort__reversed_10,16,compare,4,9,,,,,,,,,,,,,
+quick_sort__reversed_10,17,compare,5,9,,,,,,,,,,,,,
+quick_sort__reversed_10,18,compare,6,9,,,,,,,,,,,,,
+quick_sort__reversed_10,19,compare,7,9,,,,,,,,,,,,,
+quick_sort__reversed_10,20,compare,8,9,,,,,,,,,,,,,
+quick_sort__reversed_10,21,pivot_placed,9,,,,,,,,,,,,,,9 79 70 57 48 39 37 32 21 91
+quick_sort__reversed_10,22,pivot,8,,21,,1,8,,,,,,,,,
+quick_sort__reversed_10,23,compare,1,8,,,,,,,,,,,,,
+quick_sort__reversed_10,24,compare,2,8,,,,,,,,,,,,,
+quick_sort__reversed_10,25,compare,3,8,,,,,,,,,,,,,
+quick_sort__reversed_10,26,compare,4,8,,,,,,,,,,,,,
+quick_sort__reversed_10,27,compare,5,8,,,,,,,,,,,,,
+quick_sort__reversed_10,28,compare,6,8,,,,,,,,,,,,,
+quick_sort__reversed_10,29,compare,7,8,,,,,,,,,,,,,
+quick_sort__reversed_10,30,swap,1,8,,,,,,,,,,,,,9 21 70 57 48 39 37 32 79 91
+quick_sort__reversed_10,31,pivot_placed,1,,,,,,,,,,,,,,9 21 70 57 48 39 37 32 79 91
+quick_sort__reversed_10,32,pivot,8,,79,,2,8,,,,,,,,,
+quick_sort__reversed_10,33,compare,2,8,,,,,,,,,,,,,
+quick_sort__reversed_10,34,compare,3,8,,,,,,,,,,,,,
+quick_sort__reversed_10,35,compare,4,8,,,,,,,,,,,,,
+quick_sort__reversed_10,36,compare,5,8,,,,,,,,,,,,,
+quick_sort__reversed_10,37,compare,6,8,,,,,,,,,,,,,
+quick_sort__reversed_10,38,compare,7,8,,,,,,,,,,,,,
+quick_sort__reversed_10,39,pivot_placed,8,,,,,,,,,,,,,,9 21 70 57 48 39 37 32 79 91
+quick_sort__reversed_10,40,pivot,7,,32,,2,7,,,,,,,,,
+quick_sort__reversed_10,41,compare,2,7,,,,,,,,,,,,,
+quick_sort__reversed_10,42,compare,3,7,,,,,,,,,,,,,
+quick_sort__reversed_10,43,compare,4,7,,,,,,,,,,,,,
+quick_sort__reversed_10,44,compare,5,7,,,,,,,,,,,,,
+quick_sort__reversed_10,45,compare,6,7,,,,,,,,,,,,,
+quick_sort__reversed_10,46,swap,2,7,,,,,,,,,,,,,9 21 32 57 48 39 37 70 79 91
+quick_sort__reversed_10,47,pivot_placed,2,,,,,,,,,,,,,,9 21 32 57 48 39 37 70 79 91
+quick_sort__reversed_10,48,pivot,7,,70,,3,7,,,,,,,,,
+quick_sort__reversed_10,49,compare,3,7,,,,,,,,,,,,,
+quick_sort__reversed_10,50,compare,4,7,,,,,,,,,,,,,
+quick_sort__reversed_10,51,compare,5,7,,,,,,,,,,,,,
+quick_sort__reversed_10,52,compare,6,7,,,,,,,,,,,,,
+quick_sort__reversed_10,53,pivot_placed,7,,,,,,,,,,,,,,9 21 32 57 48 39 37 70 79 91
+quick_sort__reversed_10,54,pivot,6,,37,,3,6,,,,,,,,,
+quick_sort__reversed_10,55,compare,3,6,,,,,,,,,,,,,
+quick_sort__reversed_10,56,compare,4,6,,,,,,,,,,,,,
+quick_sort__reversed_10,57,compare,5,6,,,,,,,,,,,,,
+quick_sort__reversed_10,58,swap,3,6,,,,,,,,,,,,,9 21 32 37 48 39 57 70 79 91
+quick_sort__reversed_10,59,pivot_placed,3,,,,,,,,,,,,,,9 21 32 37 48 39 57 70 79 91
+quick_sort__reversed_10,60,pivot,6,,57,,4,6,,,,,,,,,
+quick_sort__reversed_10,61,compare,4,6,,,,,,,,,,,,,
+quick_sort__reversed_10,62,compare,5,6,,,,,,,,,,,,,
+quick_sort__reversed_10,63,pivot_placed,6,,,,,,,,,,,,,,9 21 32 37 48 39 57 70 79 91
+quick_sort__reversed_10,64,pivot,5,,39,,4,5,,,,,,,,,
+quick_sort__reversed_10,65,compare,4,5,,,,,,,,,,,,,
+quick_sort__reversed_10,66,swap,4,5,,,,,,,,,,,,,9 21 32 37 39 48 57 70 79 91
+quick_sort__reversed_10,67,pivot_placed,4,,,,,,,,,,,,,,9 21 32 37 39 48 57 70 79 91
+quick_sort__reversed_10,68,done,,,,,,,,,,,,,,,9 21 32 37 39 48 57 70 79 91
+bubble_sort__nearly_sorted_10,0,compare,0,1,,,,,,,,,,,,,11 22 28 37 57 61 66 85 95 87
+bubble_sort__nearly_sorted_10,1,compare,1,2,,,,,,,,,,,,,11 22 28 37 57 61 66 85 95 87
+bubble_sort__nearly_sorted_10,2,compare,2,3,,,,,,,,,,,,,11 22 28 37 57 61 66 85 95 87
+bubble_sort__nearly_sorted_10,3,compare,3,4,,,,,,,,,,,,,11 22 28 37 57 61 66 85 95 87
+bubble_sort__nearly_sorted_10,4,compare,4,5,,,,,,,,,,,,,11 22 28 37 57 61 66 85 95 87
+bubble_sort__nearly_sorted_10,5,compare,5,6,,,,,,,,,,,,,11 22 28 37 57 61 66 85 95 87
+bubble_sort__nearly_sorted_10,6,compare,6,7,,,,,,,,,,,,,11 22 28 37 57 61 66 85 95 87
+bubble_sort__nearly_sorted_10,7,compare,7,8,,,,,,,,,,,,,11 22 28 37 57 61 66 85 95 87
+bubble_sort__nearly_sorted_10,8,compare,8,9,,,,,,,,,,,,,11 22 28 37 57 61 66 85 95 87
+bubble_sort__nearly_sorted_10,9,swap,8,9,,,,,,,,,,,,,11 22 28 37 57 61 66 85 87 95
+bubble_sort__nearly_sorted_10,10,mark_sorted,9,,,,,,,,,,,,,,
+bubble_sort__nearly_sorted_10,11,compare,0,1,,,,,,,,,,,,,11 22 28 37 57 61 66 85 87 95
+bubble_sort__nearly_sorted_10,12,compare,1,2,,,,,,,,,,,,,11 22 28 37 57 61 66 85 87 95
+bubble_sort__nearly_sorted_10,13,compare,2,3,,,,,,,,,,,,,11 22 28 37 57 61 66 85 87 95
+bubble_sort__nearly_sorted_10,14,compare,3,4,,,,,,,,,,,,,11 22 28 37 57 61 66 85 87 95
+bubble_sort__nearly_sorted_10,15,compare,4,5,,,,,,,,,,,,,11 22 28 37 57 61 66 85 87 95
+bubble_sort__nearly_sorted_10,16,compare,5,6,,,,,,,,,,,,,11 22 28 37 57 61 66 85 87 95
+bubble_sort__nearly_sorted_10,17,compare,6,7,,,,,,,,,,,,,11 22 28 37 57 61 66 85 87 95
+bubble_sort__nearly_sorted_10,18,compare,7,8,,,,,,,,,,,,,11 22 28 37 57 61 66 85 87 95
+bubble_sort__nearly_sorted_10,19,mark_sorted,8,,,,,,,,,,,,,,
+bubble_sort__nearly_sorted_10,20,done,,,,,,,,,,,,,,,11 22 28 37 57 61 66 85 87 95
+insertion_sort__nearly_sorted_10,0,select_key,1,,22,,,,,,,,,,,,11 22 28 37 57 61 66 85 95 87
+insertion_sort__nearly_sorted_10,1,compare,0,1,22,,,,,,,,,,,,
+insertion_sort__nearly_sorted_10,2,insert,1,,22,,,,,,,,,,,,11 22 28 37 57 61 66 85 95 87
+insertion_sort__nearly_sorted_10,3,select_key,2,,28,,,,,,,,,,,,11 22 28 37 57 61 66 85 95 87
+insertion_sort__nearly_sorted_10,4,compare,1,2,28,,,,,,,,,,,,
+insertion_sort__nearly_sorted_10,5,insert,2,,28,,,,,,,,,,,,11 22 28 37 57 61 66 85 95 87
+insertion_sort__nearly_sorted_10,6,select_key,3,,37,,,,,,,,,,,,11 22 28 37 57 61 66 85 95 87
+insertion_sort__nearly_sorted_10,7,compare,2,3,37,,,,,,,,,,,,
+insertion_sort__nearly_sorted_10,8,insert,3,,37,,,,,,,,,,,,11 22 28 37 57 61 66 85 95 87
+insertion_sort__nearly_sorted_10,9,select_key,4,,57,,,,,,,,,,,,11 22 28 37 57 61 66 85 95 87
+insertion_sort__nearly_sorted_10,10,compare,3,4,57,,,,,,,,,,,,
+insertion_sort__nearly_sorted_10,11,insert,4,,57,,,,,,,,,,,,11 22 28 37 57 61 66 85 95 87
+insertion_sort__nearly_sorted_10,12,select_key,5,,61,,,,,,,,,,,,11 22 28 37 57 61 66 85 95 87
+insertion_sort__nearly_sorted_10,13,compare,4,5,61,,,,,,,,,,,,
+insertion_sort__nearly_sorted_10,14,insert,5,,61,,,,,,,,,,,,11 22 28 37 57 61 66 85 95 87
+insertion_sort__nearly_sorted_10,15,select_key,6,,66,,,,,,,,,,,,11 22 28 37 57 61 66 85 95 87
+insertion_sort__nearly_sorted_10,16,compare,5,6,66,,,,,,,,,,,,
+insertion_sort__nearly_sorted_10,17,insert,6,,66,,,,,,,,,,,,11 22 28 37 57 61 66 85 95 87
+insertion_sort__nearly_sorted_10,18,select_key,7,,85,,,,,,,,,,,,11 22 28 37 57 61 66 85 95 87
+insertion_sort__nearly_sorted_10,19,compare,6,7,85,,,,,,,,,,,,
+insertion_sort__nearly_sorted_10,20,insert,7,,85,,,,,,,,,,,,11 22 28 37 57 61 66 85 95 87
+insertion_sort__nearly_sorted_10,21,select_key,8,,95,,,,,,,,,,,,11 22 28 37 57 61 66 85 95 87
+insertion_sort__nearly_sorted_10,22,compare,7,8,95,,,,,,,,,,,,
+insertion_sort__nearly_sorted_10,23,insert,8,,95,,,,,,,,,,,,11 22 28 37 57 61 66 85 95 87
+insertion_sort__nearly_sorted_10,24,select_key,9,,87,,,,,,,,,,,,11 22 28 37 57 61 66 85 95 87
+insertion_sort__nearly_sorted_10,25,compare,8,9,87,,,,,,,,,,,,
+insertion_sort__nearly_sorted_10,26,shift,8,9,,,,,,,,,,,,,11 22 28 37 57 61 66 85 95 95
+insertion_sort__nearly_sorted_10,27,compare,7,9,87,,,,,,,,,,,,
+insertion_sort__nearly_sorted_10,28,insert,8,,87,,,,,,,,,,,,11 22 28 37 57 61 66 85 87 95
+insertion_sort__nearly_sorted_10,29,done,,,,,,,,,,,,,,,11 22 28 37 57 61 66 85 87 95
+quick_sort__nearly_sorted_10,0,pivot,9,,87,,0,9,,,,,,,,,
+quick_sort__nearly_sorted_10,1,compare,0,9,,,,,,,,,,,,,
+quick_sort__nearly_sorted_10,2,compare,1,9,,,,,,,,,,,,,
+quick_sort__nearly_sorted_10,3,compare,2,9,,,,,,,,,,,,,
+quick_sort__nearly_sorted_10,4,compare,3,9,,,,,,,,,,,,,
+quick_sort__nearly_sorted_10,5,compare,4,9,,,,,,,,,,,,,
+quick_sort__nearly_sorted_10,6,compare,5,9,,,,,,,,,,,,,
+quick_sort__nearly_sorted_10,7,compare,6,9,,,,,,,,,,,,,
+quick_sort__nearly_sorted_10,8,compare,7,9,,,,,,,,,,,,,
+quick_sort__nearly_sorted_10,9,compare,8,9,,,,,,,,,,,,,
+quick_sort__nearly_sorted_10,10,swap,8,9,,,,,,,,,,,,,11 22 28 37 57 61 66 85 87 95
+quick_sort__nearly_sorted_10,11,pivot_placed,8,,,,,,,,,,,,,,11 22 28 37 57 61 66 85 87 95
+quick_sort__nearly_sorted_10,12,pivot,7,,85,,0,7,,,,,,,,,
+quick_sort__nearly_sorted_10,13,compare,0,7,,,,,,,,,,,,,
+quick_sort__nearly_sorted_10,14,compare,1,7,,,,,,,,,,,,,
+quick_sort__nearly_sorted_10,15,compare,2,7,,,,,,,,,,,,,
+quick_sort__nearly_sorted_10,16,compare,3,7,,,,,,,,,,,,,
+quick_sort__nearly_sorted_10,17,compare,4,7,,,,,,,,,,,,,
+quick_sort__nearly_sorted_10,18,compare,5,7,,,,,,,,,,,,,
+quick_sort__nearly_sorted_10,19,compare,6,7,,,,,,,,,,,,,
+quick_sort__nearly_sorted_10,20,pivot_placed,7,,,,,,,,,,,,,,11 22 28 37 57 61 66 85 87 95
+quick_sort__nearly_sorted_10,21,pivot,6,,66,,0,6,,,,,,,,,
+quick_sort__nearly_sorted_10,22,compare,0,6,,,,,,,,,,,,,
+quick_sort__nearly_sorted_10,23,compare,1,6,,,,,,,,,,,,,
+quick_sort__nearly_sorted_10,24,compare,2,6,,,,,,,,,,,,,
+quick_sort__nearly_sorted_10,25,compare,3,6,,,,,,,,,,,,,
+quick_sort__nearly_sorted_10,26,compare,4,6,,,,,,,,,,,,,
+quick_sort__nearly_sorted_10,27,compare,5,6,,,,,,,,,,,,,
+quick_sort__nearly_sorted_10,28,pivot_placed,6,,,,,,,,,,,,,,11 22 28 37 57 61 66 85 87 95
+quick_sort__nearly_sorted_10,29,pivot,5,,61,,0,5,,,,,,,,,
+quick_sort__nearly_sorted_10,30,compare,0,5,,,,,,,,,,,,,
+quick_sort__nearly_sorted_10,31,compare,1,5,,,,,,,,,,,,,
+quick_sort__nearly_sorted_10,32,compare,2,5,,,,,,,,,,,,,
+quick_sort__nearly_sorted_10,33,compare,3,5,,,,,,,,,,,,,
+quick_sort__nearly_sorted_10,34,compare,4,5,,,,,,,,,,,,,
+quick_sort__nearly_sorted_10,35,pivot_placed,5,,,,,,,,,,,,,,11 22 28 37 57 61 66 85 87 95
+quick_sort__nearly_sorted_10,36,pivot,4,,57,,0,4,,,,,,,,,
+quick_sort__nearly_sorted_10,37,compare,0,4,,,,,,,,,,,,,
+quick_sort__nearly_sorted_10,38,compare,1,4,,,,,,,,,,,,,
+quick_sort__nearly_sorted_10,39,compare,2,4,,,,,,,,,,,,,
+quick_sort__nearly_sorted_10,40,compare,3,4,,,,,,,,,,,,,
+quick_sort__nearly_sorted_10,41,pivot_placed,4,,,,,,,,,,,,,,11 22 28 37 57 61 66 85 87 95
+quick_sort__nearly_sorted_10,42,pivot,3,,37,,0,3,,,,,,,,,
+quick_sort__nearly_sorted_10,43,compare,0,3,,,,,,,,,,,,,
+quick_sort__nearly_sorted_10,44,compare,1,3,,,,,,,,,,,,,
+quick_sort__nearly_sorted_10,45,compare,2,3,,,,,,,,,,,,,
+quick_sort__nearly_sorted_10,46,pivot_placed,3,,,,,,,,,,,,,,11 22 28 37 57 61 66 85 87 95
+quick_sort__nearly_sorted_10,47,pivot,2,,28,,0,2,,,,,,,,,
+quick_sort__nearly_sorted_10,48,compare,0,2,,,,,,,,,,,,,
+quick_sort__nearly_sorted_10,49,compare,1,2,,,,,,,,,,,,,
+quick_sort__nearly_sorted_10,50,pivot_placed,2,,,,,,,,,,,,,,11 22 28 37 57 61 66 85 87 95
+quick_sort__nearly_sorted_10,51,pivot,1,,22,,0,1,,,,,,,,,
+quick_sort__nearly_sorted_10,52,compare,0,1,,,,,,,,,,,,,
+quick_sort__nearly_sorted_10,53,pivot_placed,1,,,,,,,,,,,,,,11 22 28 37 57 61 66 85 87 95
+quick_sort__nearly_sorted_10,54,done,,,,,,,,,,,,,,,11 22 28 37 57 61 66 85 87 95
+bubble_sort__few_unique_10,0,compare,0,1,,,,,,,,,,,,,88 14 88 14 99 88 39 99 14 88
+bubble_sort__few_unique_10,1,swap,0,1,,,,,,,,,,,,,14 88 88 14 99 88 39 99 14 88
+bubble_sort__few_unique_10,2,compare,1,2,,,,,,,,,,,,,14 88 88 14 99 88 39 99 14 88
+bubble_sort__few_unique_10,3,compare,2,3,,,,,,,,,,,,,14 88 88 14 99 88 39 99 14 88
+bubble_sort__few_unique_10,4,swap,2,3,,,,,,,,,,,,,14 88 14 88 99 88 39 99 14 88
+bubble_sort__few_unique_10,5,compare,3,4,,,,,,,,,,,,,14 88 14 88 99 88 39 99 14 88
+bubble_sort__few_unique_10,6,compare,4,5,,,,,,,,,,,,,14 88 14 88 99 88 39 99 14 88
+bubble_sort__few_unique_10,7,swap,4,5,,,,,,,,,,,,,14 88 14 88 88 99 39 99 14 88
+bubble_sort__few_unique_10,8,compare,5,6,,,,,,,,,,,,,14 88 14 88 88 99 39 99 14 88
+bubble_sort__few_unique_10,9,swap,5,6,,,,,,,,,,,,,14 88 14 88 88 39 99 99 14 88
+bubble_sort__few_unique_10,10,compare,6,7,,,,,,,,,,,,,14 88 14 88 88 39 99 99 14 88
+bubble_sort__few_unique_10,11,compare,7,8,,,,,,,,,,,,,14 88 14 88 88 39 99 99 14 88
+bubble_sort__few_unique_10,12,swap,7,8,,,,,,,,,,,,,14 88 14 88 88 39 99 14 99 88
+bubble_sort__few_unique_10,13,compare,8,9,,,,,,,,,,,,,14 88 14 88 88 39 99 14 99 88
+bubble_sort__few_unique_10,14,swap,8,9,,,,,,,,,,,,,14 88 14 88 88 39 99 14 88 99
+bubble_sort__few_unique_10,15,mark_sorted,9,,,,,,,,,,,,,,
+bubble_sort__few_unique_10,16,compare,0,1,,,,,,,,,,,,,14 88 14 88 88 39 99 14 88 99
+bubble_sort__few_unique_10,17,compare,1,2,,,,,,,,,,,,,14 88 14 88 88 39 99 14 88 99
+bubble_sort__few_unique_10,18,swap,1,2,,,,,,,,,,,,,14 14 88 88 88 39 99 14 88 99
+bubble_sort__few_unique_10,19,compare,2,3,,,,,,,,,,,,,14 14 88 88 88 39 99 14 88 99
+bubble_sort__few_unique_10,20,compare,3,4,,,,,,,,,,,,,14 14 88 88 88 39 99 14 88 99
+bubble_sort__few_unique_10,21,compare,4,5,,,,,,,,,,,,,14 14 88 88 88 39 99 14 88 99
+bubble_sort__few_unique_10,22,swap,4,5,,,,,,,,,,,,,14 14 88 88 39 88 99 14 88 99
+bubble_sort__few_unique_10,23,compare,5,6,,,,,,,,,,,,,14 14 88 88 39 88 99 14 88 99
+bubble_sort__few_unique_10,24,compare,6,7,,,,,,,,,,,,,14 14 88 88 39 88 99 14 88 99
+bubble_sort__few_unique_10,25,swap,6,7,,,,,,,,,,,,,14 14 88 88 39 88 14 99 88 99
+bubble_sort__few_unique_10,26,compare,7,8,,,,,,,,,,,,,14 14 88 88 39 88 14 99 88 99
+bubble_sort__few_unique_10,27,swap,7,8,,,,,,,,,,,,,14 14 88 88 39 88 14 88 99 99
+bubble_sort__few_unique_10,28,mark_sorted,8,,,,,,,,,,,,,,
+bubble_sort__few_unique_10,29,compare,0,1,,,,,,,,,,,,,14 14 88 88 39 88 14 88 99 99
+bubble_sort__few_unique_10,30,compare,1,2,,,,,,,,,,,,,14 14 88 88 39 88 14 88 99 99
+bubble_sort__few_unique_10,31,compare,2,3,,,,,,,,,,,,,14 14 88 88 39 88 14 88 99 99
+bubble_sort__few_unique_10,32,compare,3,4,,,,,,,,,,,,,14 14 88 88 39 88 14 88 99 99
+bubble_sort__few_unique_10,33,swap,3,4,,,,,,,,,,,,,14 14 88 39 88 88 14 88 99 99
+bubble_sort__few_unique_10,34,compare,4,5,,,,,,,,,,,,,14 14 88 39 88 88 14 88 99 99
+bubble_sort__few_unique_10,35,compare,5,6,,,,,,,,,,,,,14 14 88 39 88 88 14 88 99 99
+bubble_sort__few_unique_10,36,swap,5,6,,,,,,,,,,,,,14 14 88 39 88 14 88 88 99 99
+bubble_sort__few_unique_10,37,compare,6,7,,,,,,,,,,,,,14 14 88 39 88 14 88 88 99 99
+bubble_sort__few_unique_10,38,mark_sorted,7,,,,,,,,,,,,,,
+bubble_sort__few_unique_10,39,compare,0,1,,,,,,,,,,,,,14 14 88 39 88 14 88 88 99 99
+bubble_sort__few_unique_10,40,compare,1,2,,,,,,,,,,,,,14 14 88 39 88 14 88 88 99 99
+bubble_sort__few_unique_10,41,compare,2,3,,,,,,,,,,,,,14 14 88 39 88 14 88 88 99 99
+bubble_sort__few_unique_10,42,swap,2,3,,,,,,,,,,,,,14 14 39 88 88 14 88 88 99 99
+bubble_sort__few_unique_10,43,compare,3,4,,,,,,,,,,,,,14 14 39 88 88 14 88 88 99 99
+bubble_sort__few_unique_10,44,compare,4,5,,,,,,,,,,,,,14 14 39 88 88 14 88 88 99 99
+bubble_sort__few_unique_10,45,swap,4,5,,,,,,,,,,,,,14 14 39 88 14 88 88 88 99 99
+bubble_sort__few_unique_10,46,compare,5,6,,,,,,,,,,,,,14 14 39 88 14 88 88 88 99 99
+bubble_sort__few_unique_10,47,mark_sorted,6,,,,,,,,,,,,,,
+bubble_sort__few_unique_10,48,compare,0,1,,,,,,,,,,,,,14 14 39 88 14 88 88 88 99 99
+bubble_sort__few_unique_10,49,compare,1,2,,,,,,,,,,,,,14 14 39 88 14 88 88 88 99 99
+bubble_sort__few_unique_10,50,compare,2,3,,,,,,,,,,,,,14 14 39 88 14 88 88 88 99 99
+bubble_sort__few_unique_10,51,compare,3,4,,,,,,,,,,,,,14 14 39 88 14 88 88 88 99 99
+bubble_sort__few_unique_10,52,swap,3,4,,,,,,,,,,,,,14 14 39 14 88 88 88 88 99 99
+bubble_sort__few_unique_10,53,compare,4,5,,,,,,,,,,,,,14 14 39 14 88 88 88 88 99 99
+bubble_sort__few_unique_10,54,mark_sorted,5,,,,,,,,,,,,,,
+bubble_sort__few_unique_10,55,compare,0,1,,,,,,,,,,,,,14 14 39 14 88 88 88 88 99 99
+bubble_sort__few_unique_10,56,compare,1,2,,,,,,,,,,,,,14 14 39 14 88 88 88 88 99 99
+bubble_sort__few_unique_10,57,compare,2,3,,,,,,,,,,,,,14 14 39 14 88 88 88 88 99 99
+bubble_sort__few_unique_10,58,swap,2,3,,,,,,,,,,,,,14 14 14 39 88 88 88 88 99 99
+bubble_sort__few_unique_10,59,compare,3,4,,,,,,,,,,,,,14 14 14 39 88 88 88 88 99 99
+bubble_sort__few_unique_10,60,mark_sorted,4,,,,,,,,,,,,,,
+bubble_sort__few_unique_10,61,compare,0,1,,,,,,,,,,,,,14 14 14 39 88 88 88 88 99 99
+bubble_sort__few_unique_10,62,compare,1,2,,,,,,,,,,,,,14 14 14 39 88 88 88 88 99 99
+bubble_sort__few_unique_10,63,compare,2,3,,,,,,,,,,,,,14 14 14 39 88 88 88 88 99 99
+bubble_sort__few_unique_10,64,mark_sorted,3,,,,,,,,,,,,,,
+bubble_sort__few_unique_10,65,done,,,,,,,,,,,,,,,14 14 14 39 88 88 88 88 99 99
+insertion_sort__few_unique_10,0,select_key,1,,14,,,,,,,,,,,,88 14 88 14 99 88 39 99 14 88
+insertion_sort__few_unique_10,1,compare,0,1,14,,,,,,,,,,,,
+insertion_sort__few_unique_10,2,shift,0,1,,,,,,,,,,,,,88 88 88 14 99 88 39 99 14 88
+insertion_sort__few_unique_10,3,insert,0,,14,,,,,,,,,,,,14 88 88 14 99 88 39 99 14 88
+insertion_sort__few_unique_10,4,select_key,2,,88,,,,,,,,,,,,14 88 88 14 99 88 39 99 14 88
+insertion_sort__few_unique_10,5,compare,1,2,88,,,,,,,,,,,,
+insertion_sort__few_unique_10,6,insert,2,,88,,,,,,,,,,,,14 88 88 14 99 88 39 99 14 88
+insertion_sort__few_unique_10,7,select_key,3,,14,,,,,,,,,,,,14 88 88 14 99 88 39 99 14 88
+insertion_sort__few_unique_10,8,compare,2,3,14,,,,,,,,,,,,
+insertion_sort__few_unique_10,9,shift,2,3,,,,,,,,,,,,,14 88 88 88 99 88 39 99 14 88
+insertion_sort__few_unique_10,10,compare,1,3,14,,,,,,,,,,,,
+insertion_sort__few_unique_10,11,shift,1,2,,,,,,,,,,,,,14 88 88 88 99 88 39 99 14 88
+insertion_sort__few_unique_10,12,compare,0,3,14,,,,,,,,,,,,
+insertion_sort__few_unique_10,13,insert,1,,14,,,,,,,,,,,,14 14 88 88 99 88 39 99 14 88
+insertion_sort__few_unique_10,14,select_key,4,,99,,,,,,,,,,,,14 14 88 88 99 88 39 99 14 88
+insertion_sort__few_unique_10,15,compare,3,4,99,,,,,,,,,,,,
+insertion_sort__few_unique_10,16,insert,4,,99,,,,,,,,,,,,14 14 88 88 99 88 39 99 14 88
+insertion_sort__few_unique_10,17,select_key,5,,88,,,,,,,,,,,,14 14 88 88 99 88 39 99 14 88
+insertion_sort__few_unique_10,18,compare,4,5,88,,,,,,,,,,,,
+insertion_sort__few_unique_10,19,shift,4,5,,,,,,,,,,,,,14 14 88 88 99 99 39 99 14 88
+insertion_sort__few_unique_10,20,compare,3,5,88,,,,,,,,,,,,
+insertion_sort__few_unique_10,21,insert,4,,88,,,,,,,,,,,,14 14 88 88 88 99 39 99 14 88
+insertion_sort__few_unique_10,22,select_key,6,,39,,,,,,,,,,,,14 14 88 88 88 99 39 99 14 88
+insertion_sort__few_unique_10,23,compare,5,6,39,,,,,,,,,,,,
+insertion_sort__few_unique_10,24,shift,5,6,,,,,,,,,,,,,14 14 88 88 88 99 99 99 14 88
+insertion_sort__few_unique_10,25,compare,4,6,39,,,,,,,,,,,,
+insertion_sort__few_unique_10,26,shift,4,5,,,,,,,,,,,,,14 14 88 88 88 88 99 99 14 88
+insertion_sort__few_unique_10,27,compare,3,6,39,,,,,,,,,,,,
+insertion_sort__few_unique_10,28,shift,3,4,,,,,,,,,,,,,14 14 88 88 88 88 99 99 14 88
+insertion_sort__few_unique_10,29,compare,2,6,39,,,,,,,,,,,,
+insertion_sort__few_unique_10,30,shift,2,3,,,,,,,,,,,,,14 14 88 88 88 88 99 99 14 88
+insertion_sort__few_unique_10,31,compare,1,6,39,,,,,,,,,,,,
+insertion_sort__few_unique_10,32,insert,2,,39,,,,,,,,,,,,14 14 39 88 88 88 99 99 14 88
+insertion_sort__few_unique_10,33,select_key,7,,99,,,,,,,,,,,,14 14 39 88 88 88 99 99 14 88
+insertion_sort__few_unique_10,34,compare,6,7,99,,,,,,,,,,,,
+insertion_sort__few_unique_10,35,insert,7,,99,,,,,,,,,,,,14 14 39 88 88 88 99 99 14 88
+insertion_sort__few_unique_10,36,select_key,8,,14,,,,,,,,,,,,14 14 39 88 88 88 99 99 14 88
+insertion_sort__few_unique_10,37,compare,7,8,14,,,,,,,,,,,,
+insertion_sort__few_unique_10,38,shift,7,8,,,,,,,,,,,,,14 14 39 88 88 88 99 99 99 88
+insertion_sort__few_unique_10,39,compare,6,8,14,,,,,,,,,,,,
+insertion_sort__few_unique_10,40,shift,6,7,,,,,,,,,,,,,14 14 39 88 88 88 99 99 99 88
+insertion_sort__few_unique_10,41,compare,5,8,14,,,,,,,,,,,,
+insertion_sort__few_unique_10,42,shift,5,6,,,,,,,,,,,,,14 14 39 88 88 88 88 99 99 88
+insertion_sort__few_unique_10,43,compare,4,8,14,,,,,,,,,,,,
+insertion_sort__few_unique_10,44,shift,4,5,,,,,,,,,,,,,14 14 39 88 88 88 88 99 99 88
+insertion_sort__few_unique_10,45,compare,3,8,14,,,,,,,,,,,,
+insertion_sort__few_unique_10,46,shift,3,4,,,,,,,,,,,,,14 14 39 88 88 88 88 99 99 88
+insertion_sort__few_unique_10,47,compare,2,8,14,,,,,,,,,,,,
+insertion_sort__few_unique_10,48,shift,2,3,,,,,,,,,,,,,14 14 39 39 88 88 88 99 99 88
+insertion_sort__few_unique_10,49,compare,1,8,14,,,,,,,,,,,,
+insertion_sort__few_unique_10,50,insert,2,,14,,,,,,,,,,,,14 14 14 39 88 88 88 99 99 88
+insertion_sort__few_unique_10,51,select_key,9,,88,,,,,,,,,,,,14 14 14 39 88 88 88 99 99 88
+insertion_sort__few_unique_10,52,compare,8,9,88,,,,,,,,,,,,
+insertion_sort__few_unique_10,53,shift,8,9,,,,,,,,,,,,,14 14 14 39 88 88 88 99 99 99
+insertion_sort__few_unique_10,54,compare,7,9,88,,,,,,,,,,,,
+insertion_sort__few_unique_10,55,shift,7,8,,,,,,,,,,,,,14 14 14 39 88 88 88 99 99 99
+insertion_sort__few_unique_10,56,compare,6,9,88,,,,,,,,,,,,
+insertion_sort__few_unique_10,57,insert,7,,88,,,,,,,,,,,,14 14 14 39 88 88 88 88 99 99
+insertion_sort__few_unique_10,58,done,,,,,,,,,,,,,,,14 14 14 39 88 88 88 88 99 99
+quick_sort__few_unique_10,0,pivot,9,,88,,0,9,,,,,,,,,
+quick_sort__few_unique_10,1,compare,0,9,,,,,,,,,,,,,
+quick_sort__few_unique_10,2,compare,1,9,,,,,,,,,,,,,
+quick_sort__few_unique_10,3,swap,0,1,,,,,,,,,,,,,14 88 88 14 99 88 39 99 14 88
+quick_sort__few_unique_10,4,compare,2,9,,,,,,,,,,,,,
+quick_sort__few_unique_10,5,compare,3,9,,,,,,,,,,,,,
+quick_sort__few_unique_10,6,swap,1,3,,,,,,,,,,,,,14 14 88 88 99 88 39 99 14 88
+quick_sort__few_unique_10,7,compare,4,9,,,,,,,,,,,,,
+quick_sort__few_unique_10,8,compare,5,9,,,,,,,,,,,,,
+quick_sort__few_unique_10,9,compare,6,9,,,,,,,,,,,,,
+quick_sort__few_unique_10,10,swap,2,6,,,,,,,,,,,,,14 14 39 88 99 88 88 99 14 88
+quick_sort__few_unique_10,11,compare,7,9,,,,,,,,,,,,,
+quick_sort__few_unique_10,12,compare,8,9,,,,,,,,,,,,,
+quick_sort__few_unique_10,13,swap,3,8,,,,,,,,,,,,,14 14 39 14 99 88 88 99 88 88
+quick_sort__few_unique_10,14,swap,4,9,,,,,,,,,,,,,14 14 39 14 88 88 88 99 88 99
+quick_sort__few_unique_10,15,pivot_placed,4,,,,,,,,,,,,,,14 14 39 14 88 88 88 99 88 99
+quick_sort__few_unique_10,16,pivot,3,,14,,0,3,,,,,,,,,
+quick_sort__few_unique_10,17,compare,0,3,,,,,,,,,,,,,
+quick_sort__few_unique_10,18,compare,1,3,,,,,,,,,,,,,
+quick_sort__few_unique_10,19,compare,2,3,,,,,,,,,,,,,
+quick_sort__few_unique_10,20,swap,0,3,,,,,,,,,,,,,14 14 39 14 88 88 88 99 88 99
+quick_sort__few_unique_10,21,pivot_placed,0,,,,,,,,,,,,,,14 14 39 14 88 88 88 99 88 99
+quick_sort__few_unique_10,22,pivot,3,,14,,1,3,,,,,,,,,
+quick_sort__few_unique_10,23,compare,1,3,,,,,,,,,,,,,
+quick_sort__few_unique_10,24,compare,2,3,,,,,,,,,,,,,
+quick_sort__few_unique_10,25,swap,1,3,,,,,,,,,,,,,14 14 39 14 88 88 88 99 88 99
+quick_sort__few_unique_10,26,pivot_placed,1,,,,,,,,,,,,,,14 14 39 14 88 88 88 99 88 99
+quick_sort__few_unique_10,27,pivot,3,,14,,2,3,,,,,,,,,
+quick_sort__few_unique_10,28,compare,2,3,,,,,,,,,,,,,
+quick_sort__few_unique_10,29,swap,2,3,,,,,,,,,,,,,14 14 14 39 88 88 88 99 88 99
+quick_sort__few_unique_10,30,pivot_placed,2,,,,,,,,,,,,,,14 14 14 39 88 88 88 99 88 99
+quick_sort__few_unique_10,31,pivot,9,,99,,5,9,,,,,,,,,
+quick_sort__few_unique_10,32,compare,5,9,,,,,,,,,,,,,
+quick_sort__few_unique_10,33,compare,6,9,,,,,,,,,,,,,
+quick_sort__few_unique_10,34,compare,7,9,,,,,,,,,,,,,
+quick_sort__few_unique_10,35,compare,8,9,,,,,,,,,,,,,
+quick_sort__few_unique_10,36,swap,7,8,,,,,,,,,,,,,14 14 14 39 88 88 88 88 99 99
+quick_sort__few_unique_10,37,swap,8,9,,,,,,,,,,,,,14 14 14 39 88 88 88 88 99 99
+quick_sort__few_unique_10,38,pivot_placed,8,,,,,,,,,,,,,,14 14 14 39 88 88 88 88 99 99
+quick_sort__few_unique_10,39,pivot,7,,88,,5,7,,,,,,,,,
+quick_sort__few_unique_10,40,compare,5,7,,,,,,,,,,,,,
+quick_sort__few_unique_10,41,compare,6,7,,,,,,,,,,,,,
+quick_sort__few_unique_10,42,swap,5,7,,,,,,,,,,,,,14 14 14 39 88 88 88 88 99 99
+quick_sort__few_unique_10,43,pivot_placed,5,,,,,,,,,,,,,,14 14 14 39 88 88 88 88 99 99
+quick_sort__few_unique_10,44,pivot,7,,88,,6,7,,,,,,,,,
+quick_sort__few_unique_10,45,compare,6,7,,,,,,,,,,,,,
+quick_sort__few_unique_10,46,swap,6,7,,,,,,,,,,,,,14 14 14 39 88 88 88 88 99 99
+quick_sort__few_unique_10,47,pivot_placed,6,,,,,,,,,,,,,,14 14 14 39 88 88 88 88 99 99
+quick_sort__few_unique_10,48,done,,,,,,,,,,,,,,,14 14 14 39 88 88 88 88 99 99
+linear_search__sorted_20__first,0,compare,0,,3,3,,,,,,,,,,,
+linear_search__sorted_20__first,1,found,0,,,,,,,,,,,,,,
+binary_search__sorted_20__first,0,compare,,,48,3,0,19,9,,,,,,,,
+binary_search__sorted_20__first,1,go_left,,,,,0,8,,,,,,,,,
+binary_search__sorted_20__first,2,compare,,,29,3,0,8,4,,,,,,,,
+binary_search__sorted_20__first,3,go_left,,,,,0,3,,,,,,,,,
+binary_search__sorted_20__first,4,compare,,,9,3,0,3,1,,,,,,,,
+binary_search__sorted_20__first,5,go_left,,,,,0,0,,,,,,,,,
+binary_search__sorted_20__first,6,compare,,,3,3,0,0,0,,,,,,,,
+binary_search__sorted_20__first,7,found,0,,,,,,,,,,,,,,
+linear_search__sorted_20__middle,0,compare,0,,3,52,,,,,,,,,,,
+linear_search__sorted_20__middle,1,compare,1,,9,52,,,,,,,,,,,
+linear_search__sorted_20__middle,2,compare,2,,16,52,,,,,,,,,,,
+linear_search__sorted_20__middle,3,compare,3,,29,52,,,,,,,,,,,
+linear_search__sorted_20__middle,4,compare,4,,29,52,,,,,,,,,,,
+linear_search__sorted_20__middle,5,compare,5,,30,52,,,,,,,,,,,
+linear_search__sorted_20__middle,6,compare,6,,32,52,,,,,,,,,,,
+linear_search__sorted_20__middle,7,compare,7,,40,52,,,,,,,,,,,
+linear_search__sorted_20__middle,8,compare,8,,44,52,,,,,,,,,,,
+linear_search__sorted_20__middle,9,compare,9,,48,52,,,,,,,,,,,
+linear_search__sorted_20__middle,10,compare,10,,52,52,,,,,,,,,,,
+linear_search__sorted_20__middle,11,found,10,,,,,,,,,,,,,,
+binary_search__sorted_20__middle,0,compare,,,48,52,0,19,9,,,,,,,,
+binary_search__sorted_20__middle,1,go_right,,,,,10,19,,,,,,,,,
+binary_search__sorted_20__middle,2,compare,,,71,52,10,19,14,,,,,,,,
+binary_search__sorted_20__middle,3,go_left,,,,,10,13,,,,,,,,,
+binary_search__sorted_20__middle,4,compare,,,57,52,10,13,11,,,,,,,,
+binary_search__sorted_20__middle,5,go_left,,,,,10,10,,,,,,,,,
+binary_search__sorted_20__middle,6,compare,,,52,52,10,10,10,,,,,,,,
+binary_search__sorted_20__middle,7,found,10,,,,,,,,,,,,,,
+linear_search__sorted_20__last,0,compare,0,,3,92,,,,,,,,,,,
+linear_search__sorted_20__last,1,compare,1,,9,92,,,,,,,,,,,
+linear_search__sorted_20__last,2,compare,2,,16,92,,,,,,,,,,,
+linear_search__sorted_20__last,3,compare,3,,29,92,,,,,,,,,,,
+linear_search__sorted_20__last,4,compare,4,,29,92,,,,,,,,,,,
+linear_search__sorted_20__last,5,compare,5,,30,92,,,,,,,,,,,
+linear_search__sorted_20__last,6,compare,6,,32,92,,,,,,,,,,,
+linear_search__sorted_20__last,7,compare,7,,40,92,,,,,,,,,,,
+linear_search__sorted_20__last,8,compare,8,,44,92,,,,,,,,,,,
+linear_search__sorted_20__last,9,compare,9,,48,92,,,,,,,,,,,
+linear_search__sorted_20__last,10,compare,10,,52,92,,,,,,,,,,,
+linear_search__sorted_20__last,11,compare,11,,57,92,,,,,,,,,,,
+linear_search__sorted_20__last,12,compare,12,,58,92,,,,,,,,,,,
+linear_search__sorted_20__last,13,compare,13,,67,92,,,,,,,,,,,
+linear_search__sorted_20__last,14,compare,14,,71,92,,,,,,,,,,,
+linear_search__sorted_20__last,15,compare,15,,76,92,,,,,,,,,,,
+linear_search__sorted_20__last,16,compare,16,,76,92,,,,,,,,,,,
+linear_search__sorted_20__last,17,compare,17,,84,92,,,,,,,,,,,
+linear_search__sorted_20__last,18,compare,18,,86,92,,,,,,,,,,,
+linear_search__sorted_20__last,19,compare,19,,92,92,,,,,,,,,,,
+linear_search__sorted_20__last,20,found,19,,,,,,,,,,,,,,
+binary_search__sorted_20__last,0,compare,,,48,92,0,19,9,,,,,,,,
+binary_search__sorted_20__last,1,go_right,,,,,10,19,,,,,,,,,
+binary_search__sorted_20__last,2,compare,,,71,92,10,19,14,,,,,,,,
+binary_search__sorted_20__last,3,go_right,,,,,15,19,,,,,,,,,
+binary_search__sorted_20__last,4,compare,,,84,92,15,19,17,,,,,,,,
+binary_search__sorted_20__last,5,go_right,,,,,18,19,,,,,,,,,
+binary_search__sorted_20__last,6,compare,,,86,92,18,19,18,,,,,,,,
+binary_search__sorted_20__last,7,go_right,,,,,19,19,,,,,,,,,
+binary_search__sorted_20__last,8,compare,,,92,92,19,19,19,,,,,,,,
+binary_search__sorted_20__last,9,found,19,,,,,,,,,,,,,,
+linear_search__sorted_20__absent,0,compare,0,,3,100,,,,,,,,,,,
+linear_search__sorted_20__absent,1,compare,1,,9,100,,,,,,,,,,,
+linear_search__sorted_20__absent,2,compare,2,,16,100,,,,,,,,,,,
+linear_search__sorted_20__absent,3,compare,3,,29,100,,,,,,,,,,,
+linear_search__sorted_20__absent,4,compare,4,,29,100,,,,,,,,,,,
+linear_search__sorted_20__absent,5,compare,5,,30,100,,,,,,,,,,,
+linear_search__sorted_20__absent,6,compare,6,,32,100,,,,,,,,,,,
+linear_search__sorted_20__absent,7,compare,7,,40,100,,,,,,,,,,,
+linear_search__sorted_20__absent,8,compare,8,,44,100,,,,,,,,,,,
+linear_search__sorted_20__absent,9,compare,9,,48,100,,,,,,,,,,,
+linear_search__sorted_20__absent,10,compare,10,,52,100,,,,,,,,,,,
+linear_search__sorted_20__absent,11,compare,11,,57,100,,,,,,,,,,,
+linear_search__sorted_20__absent,12,compare,12,,58,100,,,,,,,,,,,
+linear_search__sorted_20__absent,13,compare,13,,67,100,,,,,,,,,,,
+linear_search__sorted_20__absent,14,compare,14,,71,100,,,,,,,,,,,
+linear_search__sorted_20__absent,15,compare,15,,76,100,,,,,,,,,,,
+linear_search__sorted_20__absent,16,compare,16,,76,100,,,,,,,,,,,
+linear_search__sorted_20__absent,17,compare,17,,84,100,,,,,,,,,,,
+linear_search__sorted_20__absent,18,compare,18,,86,100,,,,,,,,,,,
+linear_search__sorted_20__absent,19,compare,19,,92,100,,,,,,,,,,,
+linear_search__sorted_20__absent,20,not_found,,,,,,,,,,,,,,,
+binary_search__sorted_20__absent,0,compare,,,48,100,0,19,9,,,,,,,,
+binary_search__sorted_20__absent,1,go_right,,,,,10,19,,,,,,,,,
+binary_search__sorted_20__absent,2,compare,,,71,100,10,19,14,,,,,,,,
+binary_search__sorted_20__absent,3,go_right,,,,,15,19,,,,,,,,,
+binary_search__sorted_20__absent,4,compare,,,84,100,15,19,17,,,,,,,,
+binary_search__sorted_20__absent,5,go_right,,,,,18,19,,,,,,,,,
+binary_search__sorted_20__absent,6,compare,,,86,100,18,19,18,,,,,,,,
+binary_search__sorted_20__absent,7,go_right,,,,,19,19,,,,,,,,,
+binary_search__sorted_20__absent,8,compare,,,92,100,19,19,19,,,,,,,,
+binary_search__sorted_20__absent,9,go_right,,,,,20,19,,,,,,,,,
+binary_search__sorted_20__absent,10,not_found,,,,,,,,,,,,,,,
+bfs__path_10,0,enqueue,,,,,,,,0,,,,,0,,
+bfs__path_10,1,dequeue,,,,,,,,0,,,,0,,0,
+bfs__path_10,2,tree_edge,,,,,,,,,,0,1,,1,,
+bfs__path_10,3,dequeue,,,,,,,,1,,,,1,,0 1,
+bfs__path_10,4,skip_edge,,,,,,,,,,1,0,,,,
+bfs__path_10,5,tree_edge,,,,,,,,,,1,2,,2,,
+bfs__path_10,6,dequeue,,,,,,,,2,,,,2,,0 1 2,
+bfs__path_10,7,skip_edge,,,,,,,,,,2,1,,,,
+bfs__path_10,8,tree_edge,,,,,,,,,,2,3,,3,,
+bfs__path_10,9,dequeue,,,,,,,,3,,,,3,,0 1 2 3,
+bfs__path_10,10,skip_edge,,,,,,,,,,3,2,,,,
+bfs__path_10,11,tree_edge,,,,,,,,,,3,4,,4,,
+bfs__path_10,12,dequeue,,,,,,,,4,,,,4,,0 1 2 3 4,
+bfs__path_10,13,skip_edge,,,,,,,,,,4,3,,,,
+bfs__path_10,14,tree_edge,,,,,,,,,,4,5,,5,,
+bfs__path_10,15,dequeue,,,,,,,,5,,,,5,,0 1 2 3 4 5,
+bfs__path_10,16,skip_edge,,,,,,,,,,5,4,,,,
+bfs__path_10,17,tree_edge,,,,,,,,,,5,6,,6,,
+bfs__path_10,18,dequeue,,,,,,,,6,,,,6,,0 1 2 3 4 5 6,
+bfs__path_10,19,skip_edge,,,,,,,,,,6,5,,,,
+bfs__path_10,20,tree_edge,,,,,,,,,,6,7,,7,,
+bfs__path_10,21,dequeue,,,,,,,,7,,,,7,,0 1 2 3 4 5 6 7,
+bfs__path_10,22,skip_edge,,,,,,,,,,7,6,,,,
+bfs__path_10,23,tree_edge,,,,,,,,,,7,8,,8,,
+bfs__path_10,24,dequeue,,,,,,,,8,,,,8,,0 1 2 3 4 5 6 7 8,
+bfs__path_10,25,skip_edge,,,,,,,,,,8,7,,,,
+bfs__path_10,26,tree_edge,,,,,,,,,,8,9,,9,,
+bfs__path_10,27,dequeue,,,,,,,,9,,,,9,,0 1 2 3 4 5 6 7 8 9,
+bfs__path_10,28,skip_edge,,,,,,,,,,9,8,,,,
+bfs__path_10,29,done,,,,,,,,,,,,,,0 1 2 3 4 5 6 7 8 9,
+dfs__path_10,0,push,,,,,,,,0,,,,,0,,
+dfs__path_10,1,visit,,,,,,,,0,,,,,,0,
+dfs__path_10,2,push,,,,,,,,1,0,,,,,,
+dfs__path_10,3,visit,,,,,,,,1,0,,,,,0 1,
+dfs__path_10,4,push,,,,,,,,2,1,,,,,,
+dfs__path_10,5,visit,,,,,,,,2,1,,,,,0 1 2,
+dfs__path_10,6,push,,,,,,,,3,2,,,,,,
+dfs__path_10,7,visit,,,,,,,,3,2,,,,,0 1 2 3,
+dfs__path_10,8,push,,,,,,,,4,3,,,,,,
+dfs__path_10,9,visit,,,,,,,,4,3,,,,,0 1 2 3 4,
+dfs__path_10,10,push,,,,,,,,5,4,,,,,,
+dfs__path_10,11,visit,,,,,,,,5,4,,,,,0 1 2 3 4 5,
+dfs__path_10,12,push,,,,,,,,6,5,,,,,,
+dfs__path_10,13,visit,,,,,,,,6,5,,,,,0 1 2 3 4 5 6,
+dfs__path_10,14,push,,,,,,,,7,6,,,,,,
+dfs__path_10,15,visit,,,,,,,,7,6,,,,,0 1 2 3 4 5 6 7,
+dfs__path_10,16,push,,,,,,,,8,7,,,,,,
+dfs__path_10,17,visit,,,,,,,,8,7,,,,,0 1 2 3 4 5 6 7 8,
+dfs__path_10,18,push,,,,,,,,9,8,,,,,,
+dfs__path_10,19,visit,,,,,,,,9,8,,,,,0 1 2 3 4 5 6 7 8 9,
+dfs__path_10,20,done,,,,,,,,,,,,,,0 1 2 3 4 5 6 7 8 9,
+bfs__cycle_10,0,enqueue,,,,,,,,0,,,,,0,,
+bfs__cycle_10,1,dequeue,,,,,,,,0,,,,0,,0,
+bfs__cycle_10,2,tree_edge,,,,,,,,,,0,1,,1,,
+bfs__cycle_10,3,tree_edge,,,,,,,,,,0,9,,1 9,,
+bfs__cycle_10,4,dequeue,,,,,,,,1,,,,1,9,0 1,
+bfs__cycle_10,5,skip_edge,,,,,,,,,,1,0,,,,
+bfs__cycle_10,6,tree_edge,,,,,,,,,,1,2,,9 2,,
+bfs__cycle_10,7,dequeue,,,,,,,,9,,,,1,2,0 1 9,
+bfs__cycle_10,8,skip_edge,,,,,,,,,,9,0,,,,
+bfs__cycle_10,9,tree_edge,,,,,,,,,,9,8,,2 8,,
+bfs__cycle_10,10,dequeue,,,,,,,,2,,,,2,8,0 1 9 2,
+bfs__cycle_10,11,skip_edge,,,,,,,,,,2,1,,,,
+bfs__cycle_10,12,tree_edge,,,,,,,,,,2,3,,8 3,,
+bfs__cycle_10,13,dequeue,,,,,,,,8,,,,2,3,0 1 9 2 8,
+bfs__cycle_10,14,tree_edge,,,,,,,,,,8,7,,3 7,,
+bfs__cycle_10,15,skip_edge,,,,,,,,,,8,9,,,,
+bfs__cycle_10,16,dequeue,,,,,,,,3,,,,3,7,0 1 9 2 8 3,
+bfs__cycle_10,17,skip_edge,,,,,,,,,,3,2,,,,
+bfs__cycle_10,18,tree_edge,,,,,,,,,,3,4,,7 4,,
+bfs__cycle_10,19,dequeue,,,,,,,,7,,,,3,4,0 1 9 2 8 3 7,
+bfs__cycle_10,20,tree_edge,,,,,,,,,,7,6,,4 6,,
+bfs__cycle_10,21,skip_edge,,,,,,,,,,7,8,,,,
+bfs__cycle_10,22,dequeue,,,,,,,,4,,,,4,6,0 1 9 2 8 3 7 4,
+bfs__cycle_10,23,skip_edge,,,,,,,,,,4,3,,,,
+bfs__cycle_10,24,tree_edge,,,,,,,,,,4,5,,6 5,,
+bfs__cycle_10,25,dequeue,,,,,,,,6,,,,4,5,0 1 9 2 8 3 7 4 6,
+bfs__cycle_10,26,skip_edge,,,,,,,,,,6,5,,,,
+bfs__cycle_10,27,skip_edge,,,,,,,,,,6,7,,,,
+bfs__cycle_10,28,dequeue,,,,,,,,5,,,,5,,0 1 9 2 8 3 7 4 6 5,
+bfs__cycle_10,29,skip_edge,,,,,,,,,,5,4,,,,
+bfs__cycle_10,30,skip_edge,,,,,,,,,,5,6,,,,
+bfs__cycle_10,31,done,,,,,,,,,,,,,,0 1 9 2 8 3 7 4 6 5,
+dfs__cycle_10,0,push,,,,,,,,0,,,,,0,,
+dfs__cycle_10,1,visit,,,,,,,,0,,,,,,0,
+dfs__cycle_10,2,push,,,,,,,,9,0,,,,,,
+dfs__cycle_10,3,push,,,,,,,,1,0,,,,,,
+dfs__cycle_10,4,visit,,,,,,,,1,0,,,,9,0 1,
+dfs__cycle_10,5,push,,,,,,,,2,1,,,,,,
+dfs__cycle_10,6,visit,,,,,,,,2,1,,,,9,0 1 2,
+dfs__cycle_10,7,push,,,,,,,,3,2,,,,,,
+dfs__cycle_10,8,visit,,,,,,,,3,2,,,,9,0 1 2 3,
+dfs__cycle_10,9,push,,,,,,,,4,3,,,,,,
+dfs__cycle_10,10,visit,,,,,,,,4,3,,,,9,0 1 2 3 4,
+dfs__cycle_10,11,push,,,,,,,,5,4,,,,,,
+dfs__cycle_10,12,visit,,,,,,,,5,4,,,,9,0 1 2 3 4 5,
+dfs__cycle_10,13,push,,,,,,,,6,5,,,,,,
+dfs__cycle_10,14,visit,,,,,,,,6,5,,,,9,0 1 2 3 4 5 6,
+dfs__cycle_10,15,push,,,,,,,,7,6,,,,,,
+dfs__cycle_10,16,visit,,,,,,,,7,6,,,,9,0 1 2 3 4 5 6 7,
+dfs__cycle_10,17,push,,,,,,,,8,7,,,,,,
+dfs__cycle_10,18,visit,,,,,,,,8,7,,,,9,0 1 2 3 4 5 6 7 8,
+dfs__cycle_10,19,push,,,,,,,,9,8,,,,,,
+dfs__cycle_10,20,visit,,,,,,,,9,8,,,,9,0 1 2 3 4 5 6 7 8 9,
+dfs__cycle_10,21,skip_node,,,,,,,,9,,,,,,,
+dfs__cycle_10,22,done,,,,,,,,,,,,,,0 1 2 3 4 5 6 7 8 9,
+bfs__star_10,0,enqueue,,,,,,,,0,,,,,0,,
+bfs__star_10,1,dequeue,,,,,,,,0,,,,0,,0,
+bfs__star_10,2,tree_edge,,,,,,,,,,0,1,,1,,
+bfs__star_10,3,tree_edge,,,,,,,,,,0,2,,1 2,,
+bfs__star_10,4,tree_edge,,,,,,,,,,0,3,,1 2 3,,
+bfs__star_10,5,tree_edge,,,,,,,,,,0,4,,1 2 3 4,,
+bfs__star_10,6,tree_edge,,,,,,,,,,0,5,,1 2 3 4 5,,
+bfs__star_10,7,tree_edge,,,,,,,,,,0,6,,1 2 3 4 5 6,,
+bfs__star_10,8,tree_edge,,,,,,,,,,0,7,,1 2 3 4 5 6 7,,
+bfs__star_10,9,tree_edge,,,,,,,,,,0,8,,1 2 3 4 5 6 7 8,,
+bfs__star_10,10,tree_edge,,,,,,,,,,0,9,,1 2 3 4 5 6 7 8 9,,
+bfs__star_10,11,dequeue,,,,,,,,1,,,,1,2 3 4 5 6 7 8 9,0 1,
+bfs__star_10,12,skip_edge,,,,,,,,,,1,0,,,,
+bfs__star_10,13,dequeue,,,,,,,,2,,,,1,3 4 5 6 7 8 9,0 1 2,
+bfs__star_10,14,skip_edge,,,,,,,,,,2,0,,,,
+bfs__star_10,15,dequeue,,,,,,,,3,,,,1,4 5 6 7 8 9,0 1 2 3,
+bfs__star_10,16,skip_edge,,,,,,,,,,3,0,,,,
+bfs__star_10,17,dequeue,,,,,,,,4,,,,1,5 6 7 8 9,0 1 2 3 4,
+bfs__star_10,18,skip_edge,,,,,,,,,,4,0,,,,
+bfs__star_10,19,dequeue,,,,,,,,5,,,,1,6 7 8 9,0 1 2 3 4 5,
+bfs__star_10,20,skip_edge,,,,,,,,,,5,0,,,,
+bfs__star_10,21,dequeue,,,,,,,,6,,,,1,7 8 9,0 1 2 3 4 5 6,
+bfs__star_10,22,skip_edge,,,,,,,,,,6,0,,,,
+bfs__star_10,23,dequeue,,,,,,,,7,,,,1,8 9,0 1 2 3 4 5 6 7,
+bfs__star_10,24,skip_edge,,,,,,,,,,7,0,,,,
+bfs__star_10,25,dequeue,,,,,,,,8,,,,1,9,0 1 2 3 4 5 6 7 8,
+bfs__star_10,26,skip_edge,,,,,,,,,,8,0,,,,
+bfs__star_10,27,dequeue,,,,,,,,9,,,,1,,0 1 2 3 4 5 6 7 8 9,
+bfs__star_10,28,skip_edge,,,,,,,,,,9,0,,,,
+bfs__star_10,29,done,,,,,,,,,,,,,,0 1 2 3 4 5 6 7 8 9,
+dfs__star_10,0,push,,,,,,,,0,,,,,0,,
+dfs__star_10,1,visit,,,,,,,,0,,,,,,0,
+dfs__star_10,2,push,,,,,,,,9,0,,,,,,
+dfs__star_10,3,push,,,,,,,,8,0,,,,,,
+dfs__star_10,4,push,,,,,,,,7,0,,,,,,
+dfs__star_10,5,push,,,,,,,,6,0,,,,,,
+dfs__star_10,6,push,,,,,,,,5,0,,,,,,
+dfs__star_10,7,push,,,,,,,,4,0,,,,,,
+dfs__star_10,8,push,,,,,,,,3,0,,,,,,
+dfs__star_10,9,push,,,,,,,,2,0,,,,,,
+dfs__star_10,10,push,,,,,,,,1,0,,,,,,
+dfs__star_10,11,visit,,,,,,,,1,0,,,,9 8 7 6 5 4 3 2,0 1,
+dfs__star_10,12,visit,,,,,,,,2,0,,,,9 8 7 6 5 4 3,0 1 2,
+dfs__star_10,13,visit,,,,,,,,3,0,,,,9 8 7 6 5 4,0 1 2 3,
+dfs__star_10,14,visit,,,,,,,,4,0,,,,9 8 7 6 5,0 1 2 3 4,
+dfs__star_10,15,visit,,,,,,,,5,0,,,,9 8 7 6,0 1 2 3 4 5,
+dfs__star_10,16,visit,,,,,,,,6,0,,,,9 8 7,0 1 2 3 4 5 6,
+dfs__star_10,17,visit,,,,,,,,7,0,,,,9 8,0 1 2 3 4 5 6 7,
+dfs__star_10,18,visit,,,,,,,,8,0,,,,9,0 1 2 3 4 5 6 7 8,
+dfs__star_10,19,visit,,,,,,,,9,0,,,,,0 1 2 3 4 5 6 7 8 9,
+dfs__star_10,20,done,,,,,,,,,,,,,,0 1 2 3 4 5 6 7 8 9,
+bfs__complete_10,0,enqueue,,,,,,,,0,,,,,0,,
+bfs__complete_10,1,dequeue,,,,,,,,0,,,,0,,0,
+bfs__complete_10,2,tree_edge,,,,,,,,,,0,1,,1,,
+bfs__complete_10,3,tree_edge,,,,,,,,,,0,2,,1 2,,
+bfs__complete_10,4,tree_edge,,,,,,,,,,0,3,,1 2 3,,
+bfs__complete_10,5,tree_edge,,,,,,,,,,0,4,,1 2 3 4,,
+bfs__complete_10,6,tree_edge,,,,,,,,,,0,5,,1 2 3 4 5,,
+bfs__complete_10,7,tree_edge,,,,,,,,,,0,6,,1 2 3 4 5 6,,
+bfs__complete_10,8,tree_edge,,,,,,,,,,0,7,,1 2 3 4 5 6 7,,
+bfs__complete_10,9,tree_edge,,,,,,,,,,0,8,,1 2 3 4 5 6 7 8,,
+bfs__complete_10,10,tree_edge,,,,,,,,,,0,9,,1 2 3 4 5 6 7 8 9,,
+bfs__complete_10,11,dequeue,,,,,,,,1,,,,1,2 3 4 5 6 7 8 9,0 1,
+bfs__complete_10,12,skip_edge,,,,,,,,,,1,0,,,,
+bfs__complete_10,13,skip_edge,,,,,,,,,,1,2,,,,
+bfs__complete_10,14,skip_edge,,,,,,,,,,1,3,,,,
+bfs__complete_10,15,skip_edge,,,,,,,,,,1,4,,,,
+bfs__complete_10,16,skip_edge,,,,,,,,,,1,5,,,,
+bfs__complete_10,17,skip_edge,,,,,,,,,,1,6,,,,
+bfs__complete_10,18,skip_edge,,,,,,,,,,1,7,,,,
+bfs__complete_10,19,skip_edge,,,,,,,,,,1,8,,,,
+bfs__complete_10,20,skip_edge,,,,,,,,,,1,9,,,,
+bfs__complete_10,21,dequeue,,,,,,,,2,,,,1,3 4 5 6 7 8 9,0 1 2,
+bfs__complete_10,22,skip_edge,,,,,,,,,,2,0,,,,
+bfs__complete_10,23,skip_edge,,,,,,,,,,2,1,,,,
+bfs__complete_10,24,skip_edge,,,,,,,,,,2,3,,,,
+bfs__complete_10,25,skip_edge,,,,,,,,,,2,4,,,,
+bfs__complete_10,26,skip_edge,,,,,,,,,,2,5,,,,
+bfs__complete_10,27,skip_edge,,,,,,,,,,2,6,,,,
+bfs__complete_10,28,skip_edge,,,,,,,,,,2,7,,,,
+bfs__complete_10,29,skip_edge,,,,,,,,,,2,8,,,,
+bfs__complete_10,30,skip_edge,,,,,,,,,,2,9,,,,
+bfs__complete_10,31,dequeue,,,,,,,,3,,,,1,4 5 6 7 8 9,0 1 2 3,
+bfs__complete_10,32,skip_edge,,,,,,,,,,3,0,,,,
+bfs__complete_10,33,skip_edge,,,,,,,,,,3,1,,,,
+bfs__complete_10,34,skip_edge,,,,,,,,,,3,2,,,,
+bfs__complete_10,35,skip_edge,,,,,,,,,,3,4,,,,
+bfs__complete_10,36,skip_edge,,,,,,,,,,3,5,,,,
+bfs__complete_10,37,skip_edge,,,,,,,,,,3,6,,,,
+bfs__complete_10,38,skip_edge,,,,,,,,,,3,7,,,,
+bfs__complete_10,39,skip_edge,,,,,,,,,,3,8,,,,
+bfs__complete_10,40,skip_edge,,,,,,,,,,3,9,,,,
+bfs__complete_10,41,dequeue,,,,,,,,4,,,,1,5 6 7 8 9,0 1 2 3 4,
+bfs__complete_10,42,skip_edge,,,,,,,,,,4,0,,,,
+bfs__complete_10,43,skip_edge,,,,,,,,,,4,1,,,,
+bfs__complete_10,44,skip_edge,,,,,,,,,,4,2,,,,
+bfs__complete_10,45,skip_edge,,,,,,,,,,4,3,,,,
+bfs__complete_10,46,skip_edge,,,,,,,,,,4,5,,,,
+bfs__complete_10,47,skip_edge,,,,,,,,,,4,6,,,,
+bfs__complete_10,48,skip_edge,,,,,,,,,,4,7,,,,
+bfs__complete_10,49,skip_edge,,,,,,,,,,4,8,,,,
+bfs__complete_10,50,skip_edge,,,,,,,,,,4,9,,,,
+bfs__complete_10,51,dequeue,,,,,,,,5,,,,1,6 7 8 9,0 1 2 3 4 5,
+bfs__complete_10,52,skip_edge,,,,,,,,,,5,0,,,,
+bfs__complete_10,53,skip_edge,,,,,,,,,,5,1,,,,
+bfs__complete_10,54,skip_edge,,,,,,,,,,5,2,,,,
+bfs__complete_10,55,skip_edge,,,,,,,,,,5,3,,,,
+bfs__complete_10,56,skip_edge,,,,,,,,,,5,4,,,,
+bfs__complete_10,57,skip_edge,,,,,,,,,,5,6,,,,
+bfs__complete_10,58,skip_edge,,,,,,,,,,5,7,,,,
+bfs__complete_10,59,skip_edge,,,,,,,,,,5,8,,,,
+bfs__complete_10,60,skip_edge,,,,,,,,,,5,9,,,,
+bfs__complete_10,61,dequeue,,,,,,,,6,,,,1,7 8 9,0 1 2 3 4 5 6,
+bfs__complete_10,62,skip_edge,,,,,,,,,,6,0,,,,
+bfs__complete_10,63,skip_edge,,,,,,,,,,6,1,,,,
+bfs__complete_10,64,skip_edge,,,,,,,,,,6,2,,,,
+bfs__complete_10,65,skip_edge,,,,,,,,,,6,3,,,,
+bfs__complete_10,66,skip_edge,,,,,,,,,,6,4,,,,
+bfs__complete_10,67,skip_edge,,,,,,,,,,6,5,,,,
+bfs__complete_10,68,skip_edge,,,,,,,,,,6,7,,,,
+bfs__complete_10,69,skip_edge,,,,,,,,,,6,8,,,,
+bfs__complete_10,70,skip_edge,,,,,,,,,,6,9,,,,
+bfs__complete_10,71,dequeue,,,,,,,,7,,,,1,8 9,0 1 2 3 4 5 6 7,
+bfs__complete_10,72,skip_edge,,,,,,,,,,7,0,,,,
+bfs__complete_10,73,skip_edge,,,,,,,,,,7,1,,,,
+bfs__complete_10,74,skip_edge,,,,,,,,,,7,2,,,,
+bfs__complete_10,75,skip_edge,,,,,,,,,,7,3,,,,
+bfs__complete_10,76,skip_edge,,,,,,,,,,7,4,,,,
+bfs__complete_10,77,skip_edge,,,,,,,,,,7,5,,,,
+bfs__complete_10,78,skip_edge,,,,,,,,,,7,6,,,,
+bfs__complete_10,79,skip_edge,,,,,,,,,,7,8,,,,
+bfs__complete_10,80,skip_edge,,,,,,,,,,7,9,,,,
+bfs__complete_10,81,dequeue,,,,,,,,8,,,,1,9,0 1 2 3 4 5 6 7 8,
+bfs__complete_10,82,skip_edge,,,,,,,,,,8,0,,,,
+bfs__complete_10,83,skip_edge,,,,,,,,,,8,1,,,,
+bfs__complete_10,84,skip_edge,,,,,,,,,,8,2,,,,
+bfs__complete_10,85,skip_edge,,,,,,,,,,8,3,,,,
+bfs__complete_10,86,skip_edge,,,,,,,,,,8,4,,,,
+bfs__complete_10,87,skip_edge,,,,,,,,,,8,5,,,,
+bfs__complete_10,88,skip_edge,,,,,,,,,,8,6,,,,
+bfs__complete_10,89,skip_edge,,,,,,,,,,8,7,,,,
+bfs__complete_10,90,skip_edge,,,,,,,,,,8,9,,,,
+bfs__complete_10,91,dequeue,,,,,,,,9,,,,1,,0 1 2 3 4 5 6 7 8 9,
+bfs__complete_10,92,skip_edge,,,,,,,,,,9,0,,,,
+bfs__complete_10,93,skip_edge,,,,,,,,,,9,1,,,,
+bfs__complete_10,94,skip_edge,,,,,,,,,,9,2,,,,
+bfs__complete_10,95,skip_edge,,,,,,,,,,9,3,,,,
+bfs__complete_10,96,skip_edge,,,,,,,,,,9,4,,,,
+bfs__complete_10,97,skip_edge,,,,,,,,,,9,5,,,,
+bfs__complete_10,98,skip_edge,,,,,,,,,,9,6,,,,
+bfs__complete_10,99,skip_edge,,,,,,,,,,9,7,,,,
+bfs__complete_10,100,skip_edge,,,,,,,,,,9,8,,,,
+bfs__complete_10,101,done,,,,,,,,,,,,,,0 1 2 3 4 5 6 7 8 9,
+dfs__complete_10,0,push,,,,,,,,0,,,,,0,,
+dfs__complete_10,1,visit,,,,,,,,0,,,,,,0,
+dfs__complete_10,2,push,,,,,,,,9,0,,,,,,
+dfs__complete_10,3,push,,,,,,,,8,0,,,,,,
+dfs__complete_10,4,push,,,,,,,,7,0,,,,,,
+dfs__complete_10,5,push,,,,,,,,6,0,,,,,,
+dfs__complete_10,6,push,,,,,,,,5,0,,,,,,
+dfs__complete_10,7,push,,,,,,,,4,0,,,,,,
+dfs__complete_10,8,push,,,,,,,,3,0,,,,,,
+dfs__complete_10,9,push,,,,,,,,2,0,,,,,,
+dfs__complete_10,10,push,,,,,,,,1,0,,,,,,
+dfs__complete_10,11,visit,,,,,,,,1,0,,,,9 8 7 6 5 4 3 2,0 1,
+dfs__complete_10,12,push,,,,,,,,9,1,,,,,,
+dfs__complete_10,13,push,,,,,,,,8,1,,,,,,
+dfs__complete_10,14,push,,,,,,,,7,1,,,,,,
+dfs__complete_10,15,push,,,,,,,,6,1,,,,,,
+dfs__complete_10,16,push,,,,,,,,5,1,,,,,,
+dfs__complete_10,17,push,,,,,,,,4,1,,,,,,
+dfs__complete_10,18,push,,,,,,,,3,1,,,,,,
+dfs__complete_10,19,push,,,,,,,,2,1,,,,,,
+dfs__complete_10,20,visit,,,,,,,,2,1,,,,9 8 7 6 5 4 3 2 9 8 7 6 5 4 3,0 1 2,
+dfs__complete_10,21,push,,,,,,,,9,2,,,,,,
+dfs__complete_10,22,push,,,,,,,,8,2,,,,,,
+dfs__complete_10,23,push,,,,,,,,7,2,,,,,,
+dfs__complete_10,24,push,,,,,,,,6,2,,,,,,
+dfs__complete_10,25,push,,,,,,,,5,2,,,,,,
+dfs__complete_10,26,push,,,,,,,,4,2,,,,,,
+dfs__complete_10,27,push,,,,,,,,3,2,,,,,,
+dfs__complete_10,28,visit,,,,,,,,3,2,,,,9 8 7 6 5 4 3 2 9 8 7 6 5 4 3 9 8 7 6 5 4,0 1 2 3,
+dfs__complete_10,29,push,,,,,,,,9,3,,,,,,
+dfs__complete_10,30,push,,,,,,,,8,3,,,,,,
+dfs__complete_10,31,push,,,,,,,,7,3,,,,,,
+dfs__complete_10,32,push,,,,,,,,6,3,,,,,,
+dfs__complete_10,33,push,,,,,,,,5,3,,,,,,
+dfs__complete_10,34,push,,,,,,,,4,3,,,,,,
+dfs__complete_10,35,visit,,,,,,,,4,3,,,,9 8 7 6 5 4 3 2 9 8 7 6 5 4 3 9 8 7 6 5 4 9 8 7 6 5,0 1 2 3 4,
+dfs__complete_10,36,push,,,,,,,,9,4,,,,,,
+dfs__complete_10,37,push,,,,,,,,8,4,,,,,,
+dfs__complete_10,38,push,,,,,,,,7,4,,,,,,
+dfs__complete_10,39,push,,,,,,,,6,4,,,,,,
+dfs__complete_10,40,push,,,,,,,,5,4,,,,,,
+dfs__complete_10,41,visit,,,,,,,,5,4,,,,9 8 7 6 5 4 3 2 9 8 7 6 5 4 3 9 8 7 6 5 4 9 8 7 6 5 9 8 7 6,0 1 2 3 4 5,
+dfs__complete_10,42,push,,,,,,,,9,5,,,,,,
+dfs__complete_10,43,push,,,,,,,,8,5,,,,,,
+dfs__complete_10,44,push,,,,,,,,7,5,,,,,,
+dfs__complete_10,45,push,,,,,,,,6,5,,,,,,
+dfs__complete_10,46,visit,,,,,,,,6,5,,,,9 8 7 6 5 4 3 2 9 8 7 6 5 4 3 9 8 7 6 5 4 9 8 7 6 5 9 8 7 6 9 8 7,0 1 2 3 4 5 6,
+dfs__complete_10,47,push,,,,,,,,9,6,,,,,,
+dfs__complete_10,48,push,,,,,,,,8,6,,,,,,
+dfs__complete_10,49,push,,,,,,,,7,6,,,,,,
+dfs__complete_10,50,visit,,,,,,,,7,6,,,,9 8 7 6 5 4 3 2 9 8 7 6 5 4 3 9 8 7 6 5 4 9 8 7 6 5 9 8 7 6 9 8 7 9 8,0 1 2 3 4 5 6 7,
+dfs__complete_10,51,push,,,,,,,,9,7,,,,,,
+dfs__complete_10,52,push,,,,,,,,8,7,,,,,,
+dfs__complete_10,53,visit,,,,,,,,8,7,,,,9 8 7 6 5 4 3 2 9 8 7 6 5 4 3 9 8 7 6 5 4 9 8 7 6 5 9 8 7 6 9 8 7 9 8 9,0 1 2 3 4 5 6 7 8,
+dfs__complete_10,54,push,,,,,,,,9,8,,,,,,
+dfs__complete_10,55,visit,,,,,,,,9,8,,,,9 8 7 6 5 4 3 2 9 8 7 6 5 4 3 9 8 7 6 5 4 9 8 7 6 5 9 8 7 6 9 8 7 9 8 9,0 1 2 3 4 5 6 7 8 9,
+dfs__complete_10,56,skip_node,,,,,,,,9,,,,,,,
+dfs__complete_10,57,skip_node,,,,,,,,8,,,,,,,
+dfs__complete_10,58,skip_node,,,,,,,,9,,,,,,,
+dfs__complete_10,59,skip_node,,,,,,,,7,,,,,,,
+dfs__complete_10,60,skip_node,,,,,,,,8,,,,,,,
+dfs__complete_10,61,skip_node,,,,,,,,9,,,,,,,
+dfs__complete_10,62,skip_node,,,,,,,,6,,,,,,,
+dfs__complete_10,63,skip_node,,,,,,,,7,,,,,,,
+dfs__complete_10,64,skip_node,,,,,,,,8,,,,,,,
+dfs__complete_10,65,skip_node,,,,,,,,9,,,,,,,
+dfs__complete_10,66,skip_node,,,,,,,,5,,,,,,,
+dfs__complete_10,67,skip_node,,,,,,,,6,,,,,,,
+dfs__complete_10,68,skip_node,,,,,,,,7,,,,,,,
+dfs__complete_10,69,skip_node,,,,,,,,8,,,,,,,
+dfs__complete_10,70,skip_node,,,,,,,,9,,,,,,,
+dfs__complete_10,71,skip_node,,,,,,,,4,,,,,,,
+dfs__complete_10,72,skip_node,,,,,,,,5,,,,,,,
+dfs__complete_10,73,skip_node,,,,,,,,6,,,,,,,
+dfs__complete_10,74,skip_node,,,,,,,,7,,,,,,,
+dfs__complete_10,75,skip_node,,,,,,,,8,,,,,,,
+dfs__complete_10,76,skip_node,,,,,,,,9,,,,,,,
+dfs__complete_10,77,skip_node,,,,,,,,3,,,,,,,
+dfs__complete_10,78,skip_node,,,,,,,,4,,,,,,,
+dfs__complete_10,79,skip_node,,,,,,,,5,,,,,,,
+dfs__complete_10,80,skip_node,,,,,,,,6,,,,,,,
+dfs__complete_10,81,skip_node,,,,,,,,7,,,,,,,
+dfs__complete_10,82,skip_node,,,,,,,,8,,,,,,,
+dfs__complete_10,83,skip_node,,,,,,,,9,,,,,,,
+dfs__complete_10,84,skip_node,,,,,,,,2,,,,,,,
+dfs__complete_10,85,skip_node,,,,,,,,3,,,,,,,
+dfs__complete_10,86,skip_node,,,,,,,,4,,,,,,,
+dfs__complete_10,87,skip_node,,,,,,,,5,,,,,,,
+dfs__complete_10,88,skip_node,,,,,,,,6,,,,,,,
+dfs__complete_10,89,skip_node,,,,,,,,7,,,,,,,
+dfs__complete_10,90,skip_node,,,,,,,,8,,,,,,,
+dfs__complete_10,91,skip_node,,,,,,,,9,,,,,,,
+dfs__complete_10,92,done,,,,,,,,,,,,,,0 1 2 3 4 5 6 7 8 9,
+bfs__binary_tree_10,0,enqueue,,,,,,,,0,,,,,0,,
+bfs__binary_tree_10,1,dequeue,,,,,,,,0,,,,0,,0,
+bfs__binary_tree_10,2,tree_edge,,,,,,,,,,0,1,,1,,
+bfs__binary_tree_10,3,tree_edge,,,,,,,,,,0,2,,1 2,,
+bfs__binary_tree_10,4,dequeue,,,,,,,,1,,,,1,2,0 1,
+bfs__binary_tree_10,5,skip_edge,,,,,,,,,,1,0,,,,
+bfs__binary_tree_10,6,tree_edge,,,,,,,,,,1,3,,2 3,,
+bfs__binary_tree_10,7,tree_edge,,,,,,,,,,1,4,,2 3 4,,
+bfs__binary_tree_10,8,dequeue,,,,,,,,2,,,,1,3 4,0 1 2,
+bfs__binary_tree_10,9,skip_edge,,,,,,,,,,2,0,,,,
+bfs__binary_tree_10,10,tree_edge,,,,,,,,,,2,5,,3 4 5,,
+bfs__binary_tree_10,11,tree_edge,,,,,,,,,,2,6,,3 4 5 6,,
+bfs__binary_tree_10,12,dequeue,,,,,,,,3,,,,2,4 5 6,0 1 2 3,
+bfs__binary_tree_10,13,skip_edge,,,,,,,,,,3,1,,,,
+bfs__binary_tree_10,14,tree_edge,,,,,,,,,,3,7,,4 5 6 7,,
+bfs__binary_tree_10,15,tree_edge,,,,,,,,,,3,8,,4 5 6 7 8,,
+bfs__binary_tree_10,16,dequeue,,,,,,,,4,,,,2,5 6 7 8,0 1 2 3 4,
+bfs__binary_tree_10,17,skip_edge,,,,,,,,,,4,1,,,,
+bfs__binary_tree_10,18,tree_edge,,,,,,,,,,4,9,,5 6 7 8 9,,
+bfs__binary_tree_10,19,dequeue,,,,,,,,5,,,,2,6 7 8 9,0 1 2 3 4 5,
+bfs__binary_tree_10,20,skip_edge,,,,,,,,,,5,2,,,,
+bfs__binary_tree_10,21,dequeue,,,,,,,,6,,,,2,7 8 9,0 1 2 3 4 5 6,
+bfs__binary_tree_10,22,skip_edge,,,,,,,,,,6,2,,,,
+bfs__binary_tree_10,23,dequeue,,,,,,,,7,,,,3,8 9,0 1 2 3 4 5 6 7,
+bfs__binary_tree_10,24,skip_edge,,,,,,,,,,7,3,,,,
+bfs__binary_tree_10,25,dequeue,,,,,,,,8,,,,3,9,0 1 2 3 4 5 6 7 8,
+bfs__binary_tree_10,26,skip_edge,,,,,,,,,,8,3,,,,
+bfs__binary_tree_10,27,dequeue,,,,,,,,9,,,,3,,0 1 2 3 4 5 6 7 8 9,
+bfs__binary_tree_10,28,skip_edge,,,,,,,,,,9,4,,,,
+bfs__binary_tree_10,29,done,,,,,,,,,,,,,,0 1 2 3 4 5 6 7 8 9,
+dfs__binary_tree_10,0,push,,,,,,,,0,,,,,0,,
+dfs__binary_tree_10,1,visit,,,,,,,,0,,,,,,0,
+dfs__binary_tree_10,2,push,,,,,,,,2,0,,,,,,
+dfs__binary_tree_10,3,push,,,,,,,,1,0,,,,,,
+dfs__binary_tree_10,4,visit,,,,,,,,1,0,,,,2,0 1,
+dfs__binary_tree_10,5,push,,,,,,,,4,1,,,,,,
+dfs__binary_tree_10,6,push,,,,,,,,3,1,,,,,,
+dfs__binary_tree_10,7,visit,,,,,,,,3,1,,,,2 4,0 1 3,
+dfs__binary_tree_10,8,push,,,,,,,,8,3,,,,,,
+dfs__binary_tree_10,9,push,,,,,,,,7,3,,,,,,
+dfs__binary_tree_10,10,visit,,,,,,,,7,3,,,,2 4 8,0 1 3 7,
+dfs__binary_tree_10,11,visit,,,,,,,,8,3,,,,2 4,0 1 3 7 8,
+dfs__binary_tree_10,12,visit,,,,,,,,4,1,,,,2,0 1 3 7 8 4,
+dfs__binary_tree_10,13,push,,,,,,,,9,4,,,,,,
+dfs__binary_tree_10,14,visit,,,,,,,,9,4,,,,2,0 1 3 7 8 4 9,
+dfs__binary_tree_10,15,visit,,,,,,,,2,0,,,,,0 1 3 7 8 4 9 2,
+dfs__binary_tree_10,16,push,,,,,,,,6,2,,,,,,
+dfs__binary_tree_10,17,push,,,,,,,,5,2,,,,,,
+dfs__binary_tree_10,18,visit,,,,,,,,5,2,,,,6,0 1 3 7 8 4 9 2 5,
+dfs__binary_tree_10,19,visit,,,,,,,,6,2,,,,,0 1 3 7 8 4 9 2 5 6,
+dfs__binary_tree_10,20,done,,,,,,,,,,,,,,0 1 3 7 8 4 9 2 5 6,
+bfs__grid_10,0,enqueue,,,,,,,,0,,,,,0,,
+bfs__grid_10,1,dequeue,,,,,,,,0,,,,0,,0,
+bfs__grid_10,2,tree_edge,,,,,,,,,,0,1,,1,,
+bfs__grid_10,3,tree_edge,,,,,,,,,,0,3,,1 3,,
+bfs__grid_10,4,dequeue,,,,,,,,1,,,,1,3,0 1,
+bfs__grid_10,5,skip_edge,,,,,,,,,,1,0,,,,
+bfs__grid_10,6,tree_edge,,,,,,,,,,1,2,,3 2,,
+bfs__grid_10,7,tree_edge,,,,,,,,,,1,4,,3 2 4,,
+bfs__grid_10,8,dequeue,,,,,,,,3,,,,1,2 4,0 1 3,
+bfs__grid_10,9,skip_edge,,,,,,,,,,3,0,,,,
+bfs__grid_10,10,skip_edge,,,,,,,,,,3,4,,,,
+bfs__grid_10,11,tree_edge,,,,,,,,,,3,6,,2 4 6,,
+bfs__grid_10,12,dequeue,,,,,,,,2,,,,2,4 6,0 1 3 2,
+bfs__grid_10,13,skip_edge,,,,,,,,,,2,1,,,,
+bfs__grid_10,14,tree_edge,,,,,,,,,,2,5,,4 6 5,,
+bfs__grid_10,15,dequeue,,,,,,,,4,,,,2,6 5,0 1 3 2 4,
+bfs__grid_10,16,skip_edge,,,,,,,,,,4,1,,,,
+bfs__grid_10,17,skip_edge,,,,,,,,,,4,3,,,,
+bfs__grid_10,18,skip_edge,,,,,,,,,,4,5,,,,
+bfs__grid_10,19,tree_edge,,,,,,,,,,4,7,,6 5 7,,
+bfs__grid_10,20,dequeue,,,,,,,,6,,,,2,5 7,0 1 3 2 4 6,
+bfs__grid_10,21,skip_edge,,,,,,,,,,6,3,,,,
+bfs__grid_10,22,skip_edge,,,,,,,,,,6,7,,,,
+bfs__grid_10,23,dequeue,,,,,,,,5,,,,3,7,0 1 3 2 4 6 5,
+bfs__grid_10,24,skip_edge,,,,,,,,,,5,2,,,,
+bfs__grid_10,25,skip_edge,,,,,,,,,,5,4,,,,
+bfs__grid_10,26,tree_edge,,,,,,,,,,5,8,,7 8,,
+bfs__grid_10,27,dequeue,,,,,,,,7,,,,3,8,0 1 3 2 4 6 5 7,
+bfs__grid_10,28,skip_edge,,,,,,,,,,7,4,,,,
+bfs__grid_10,29,skip_edge,,,,,,,,,,7,6,,,,
+bfs__grid_10,30,skip_edge,,,,,,,,,,7,8,,,,
+bfs__grid_10,31,dequeue,,,,,,,,8,,,,4,,0 1 3 2 4 6 5 7 8,
+bfs__grid_10,32,skip_edge,,,,,,,,,,8,5,,,,
+bfs__grid_10,33,skip_edge,,,,,,,,,,8,7,,,,
+bfs__grid_10,34,done,,,,,,,,,,,,,,0 1 3 2 4 6 5 7 8,
+dfs__grid_10,0,push,,,,,,,,0,,,,,0,,
+dfs__grid_10,1,visit,,,,,,,,0,,,,,,0,
+dfs__grid_10,2,push,,,,,,,,3,0,,,,,,
+dfs__grid_10,3,push,,,,,,,,1,0,,,,,,
+dfs__grid_10,4,visit,,,,,,,,1,0,,,,3,0 1,
+dfs__grid_10,5,push,,,,,,,,4,1,,,,,,
+dfs__grid_10,6,push,,,,,,,,2,1,,,,,,
+dfs__grid_10,7,visit,,,,,,,,2,1,,,,3 4,0 1 2,
+dfs__grid_10,8,push,,,,,,,,5,2,,,,,,
+dfs__grid_10,9,visit,,,,,,,,5,2,,,,3 4,0 1 2 5,
+dfs__grid_10,10,push,,,,,,,,8,5,,,,,,
+dfs__grid_10,11,push,,,,,,,,4,5,,,,,,
+dfs__grid_10,12,visit,,,,,,,,4,5,,,,3 4 8,0 1 2 5 4,
+dfs__grid_10,13,push,,,,,,,,7,4,,,,,,
+dfs__grid_10,14,push,,,,,,,,3,4,,,,,,
+dfs__grid_10,15,visit,,,,,,,,3,4,,,,3 4 8 7,0 1 2 5 4 3,
+dfs__grid_10,16,push,,,,,,,,6,3,,,,,,
+dfs__grid_10,17,visit,,,,,,,,6,3,,,,3 4 8 7,0 1 2 5 4 3 6,
+dfs__grid_10,18,push,,,,,,,,7,6,,,,,,
+dfs__grid_10,19,visit,,,,,,,,7,6,,,,3 4 8 7,0 1 2 5 4 3 6 7,
+dfs__grid_10,20,push,,,,,,,,8,7,,,,,,
+dfs__grid_10,21,visit,,,,,,,,8,7,,,,3 4 8 7,0 1 2 5 4 3 6 7 8,
+dfs__grid_10,22,skip_node,,,,,,,,7,,,,,,,
+dfs__grid_10,23,skip_node,,,,,,,,8,,,,,,,
+dfs__grid_10,24,skip_node,,,,,,,,4,,,,,,,
+dfs__grid_10,25,skip_node,,,,,,,,3,,,,,,,
+dfs__grid_10,26,done,,,,,,,,,,,,,,0 1 2 5 4 3 6 7 8,
+bfs__random_sparse_10,0,enqueue,,,,,,,,0,,,,,0,,
+bfs__random_sparse_10,1,dequeue,,,,,,,,0,,,,0,,0,
+bfs__random_sparse_10,2,tree_edge,,,,,,,,,,0,3,,3,,
+bfs__random_sparse_10,3,tree_edge,,,,,,,,,,0,4,,3 4,,
+bfs__random_sparse_10,4,tree_edge,,,,,,,,,,0,7,,3 4 7,,
+bfs__random_sparse_10,5,tree_edge,,,,,,,,,,0,8,,3 4 7 8,,
+bfs__random_sparse_10,6,tree_edge,,,,,,,,,,0,9,,3 4 7 8 9,,
+bfs__random_sparse_10,7,dequeue,,,,,,,,3,,,,1,4 7 8 9,0 3,
+bfs__random_sparse_10,8,skip_edge,,,,,,,,,,3,0,,,,
+bfs__random_sparse_10,9,tree_edge,,,,,,,,,,3,2,,4 7 8 9 2,,
+bfs__random_sparse_10,10,skip_edge,,,,,,,,,,3,4,,,,
+bfs__random_sparse_10,11,skip_edge,,,,,,,,,,3,8,,,,
+bfs__random_sparse_10,12,dequeue,,,,,,,,4,,,,1,7 8 9 2,0 3 4,
+bfs__random_sparse_10,13,skip_edge,,,,,,,,,,4,0,,,,
+bfs__random_sparse_10,14,tree_edge,,,,,,,,,,4,1,,7 8 9 2 1,,
+bfs__random_sparse_10,15,skip_edge,,,,,,,,,,4,3,,,,
+bfs__random_sparse_10,16,skip_edge,,,,,,,,,,4,7,,,,
+bfs__random_sparse_10,17,skip_edge,,,,,,,,,,4,8,,,,
+bfs__random_sparse_10,18,dequeue,,,,,,,,7,,,,1,8 9 2 1,0 3 4 7,
+bfs__random_sparse_10,19,skip_edge,,,,,,,,,,7,0,,,,
+bfs__random_sparse_10,20,skip_edge,,,,,,,,,,7,1,,,,
+bfs__random_sparse_10,21,skip_edge,,,,,,,,,,7,2,,,,
+bfs__random_sparse_10,22,skip_edge,,,,,,,,,,7,4,,,,
+bfs__random_sparse_10,23,tree_edge,,,,,,,,,,7,6,,8 9 2 1 6,,
+bfs__random_sparse_10,24,skip_edge,,,,,,,,,,7,9,,,,
+bfs__random_sparse_10,25,dequeue,,,,,,,,8,,,,1,9 2 1 6,0 3 4 7 8,
+bfs__random_sparse_10,26,skip_edge,,,,,,,,,,8,0,,,,
+bfs__random_sparse_10,27,skip_edge,,,,,,,,,,8,2,,,,
+bfs__random_sparse_10,28,skip_edge,,,,,,,,,,8,3,,,,
+bfs__random_sparse_10,29,skip_edge,,,,,,,,,,8,4,,,,
+bfs__random_sparse_10,30,tree_edge,,,,,,,,,,8,5,,9 2 1 6 5,,
+bfs__random_sparse_10,31,skip_edge,,,,,,,,,,8,6,,,,
+bfs__random_sparse_10,32,dequeue,,,,,,,,9,,,,1,2 1 6 5,0 3 4 7 8 9,
+bfs__random_sparse_10,33,skip_edge,,,,,,,,,,9,0,,,,
+bfs__random_sparse_10,34,skip_edge,,,,,,,,,,9,7,,,,
+bfs__random_sparse_10,35,dequeue,,,,,,,,2,,,,2,1 6 5,0 3 4 7 8 9 2,
+bfs__random_sparse_10,36,skip_edge,,,,,,,,,,2,3,,,,
+bfs__random_sparse_10,37,skip_edge,,,,,,,,,,2,7,,,,
+bfs__random_sparse_10,38,skip_edge,,,,,,,,,,2,8,,,,
+bfs__random_sparse_10,39,dequeue,,,,,,,,1,,,,2,6 5,0 3 4 7 8 9 2 1,
+bfs__random_sparse_10,40,skip_edge,,,,,,,,,,1,4,,,,
+bfs__random_sparse_10,41,skip_edge,,,,,,,,,,1,7,,,,
+bfs__random_sparse_10,42,dequeue,,,,,,,,6,,,,2,5,0 3 4 7 8 9 2 1 6,
+bfs__random_sparse_10,43,skip_edge,,,,,,,,,,6,5,,,,
+bfs__random_sparse_10,44,skip_edge,,,,,,,,,,6,7,,,,
+bfs__random_sparse_10,45,skip_edge,,,,,,,,,,6,8,,,,
+bfs__random_sparse_10,46,dequeue,,,,,,,,5,,,,2,,0 3 4 7 8 9 2 1 6 5,
+bfs__random_sparse_10,47,skip_edge,,,,,,,,,,5,6,,,,
+bfs__random_sparse_10,48,skip_edge,,,,,,,,,,5,8,,,,
+bfs__random_sparse_10,49,done,,,,,,,,,,,,,,0 3 4 7 8 9 2 1 6 5,
+dfs__random_sparse_10,0,push,,,,,,,,0,,,,,0,,
+dfs__random_sparse_10,1,visit,,,,,,,,0,,,,,,0,
+dfs__random_sparse_10,2,push,,,,,,,,9,0,,,,,,
+dfs__random_sparse_10,3,push,,,,,,,,8,0,,,,,,
+dfs__random_sparse_10,4,push,,,,,,,,7,0,,,,,,
+dfs__random_sparse_10,5,push,,,,,,,,4,0,,,,,,
+dfs__random_sparse_10,6,push,,,,,,,,3,0,,,,,,
+dfs__random_sparse_10,7,visit,,,,,,,,3,0,,,,9 8 7 4,0 3,
+dfs__random_sparse_10,8,push,,,,,,,,8,3,,,,,,
+dfs__random_sparse_10,9,push,,,,,,,,4,3,,,,,,
+dfs__random_sparse_10,10,push,,,,,,,,2,3,,,,,,
+dfs__random_sparse_10,11,visit,,,,,,,,2,3,,,,9 8 7 4 8 4,0 3 2,
+dfs__random_sparse_10,12,push,,,,,,,,8,2,,,,,,
+dfs__random_sparse_10,13,push,,,,,,,,7,2,,,,,,
+dfs__random_sparse_10,14,visit,,,,,,,,7,2,,,,9 8 7 4 8 4 8,0 3 2 7,
+dfs__random_sparse_10,15,push,,,,,,,,9,7,,,,,,
+dfs__random_sparse_10,16,push,,,,,,,,6,7,,,,,,
+dfs__random_sparse_10,17,push,,,,,,,,4,7,,,,,,
+dfs__random_sparse_10,18,push,,,,,,,,1,7,,,,,,
+dfs__random_sparse_10,19,visit,,,,,,,,1,7,,,,9 8 7 4 8 4 8 9 6 4,0 3 2 7 1,
+dfs__random_sparse_10,20,push,,,,,,,,4,1,,,,,,
+dfs__random_sparse_10,21,visit,,,,,,,,4,1,,,,9 8 7 4 8 4 8 9 6 4,0 3 2 7 1 4,
+dfs__random_sparse_10,22,push,,,,,,,,8,4,,,,,,
+dfs__random_sparse_10,23,visit,,,,,,,,8,4,,,,9 8 7 4 8 4 8 9 6 4,0 3 2 7 1 4 8,
+dfs__random_sparse_10,24,push,,,,,,,,6,8,,,,,,
+dfs__random_sparse_10,25,push,,,,,,,,5,8,,,,,,
+dfs__random_sparse_10,26,visit,,,,,,,,5,8,,,,9 8 7 4 8 4 8 9 6 4 6,0 3 2 7 1 4 8 5,
+dfs__random_sparse_10,27,push,,,,,,,,6,5,,,,,,
+dfs__random_sparse_10,28,visit,,,,,,,,6,5,,,,9 8 7 4 8 4 8 9 6 4 6,0 3 2 7 1 4 8 5 6,
+dfs__random_sparse_10,29,skip_node,,,,,,,,6,,,,,,,
+dfs__random_sparse_10,30,skip_node,,,,,,,,4,,,,,,,
+dfs__random_sparse_10,31,skip_node,,,,,,,,6,,,,,,,
+dfs__random_sparse_10,32,visit,,,,,,,,9,7,,,,9 8 7 4 8 4 8,0 3 2 7 1 4 8 5 6 9,
+dfs__random_sparse_10,33,skip_node,,,,,,,,8,,,,,,,
+dfs__random_sparse_10,34,skip_node,,,,,,,,4,,,,,,,
+dfs__random_sparse_10,35,skip_node,,,,,,,,8,,,,,,,
+dfs__random_sparse_10,36,skip_node,,,,,,,,4,,,,,,,
+dfs__random_sparse_10,37,skip_node,,,,,,,,7,,,,,,,
+dfs__random_sparse_10,38,skip_node,,,,,,,,8,,,,,,,
+dfs__random_sparse_10,39,skip_node,,,,,,,,9,,,,,,,
+dfs__random_sparse_10,40,done,,,,,,,,,,,,,,0 3 2 7 1 4 8 5 6 9,
+bfs__random_dense_10,0,enqueue,,,,,,,,0,,,,,0,,
+bfs__random_dense_10,1,dequeue,,,,,,,,0,,,,0,,0,
+bfs__random_dense_10,2,tree_edge,,,,,,,,,,0,4,,4,,
+bfs__random_dense_10,3,tree_edge,,,,,,,,,,0,7,,4 7,,
+bfs__random_dense_10,4,tree_edge,,,,,,,,,,0,9,,4 7 9,,
+bfs__random_dense_10,5,dequeue,,,,,,,,4,,,,1,7 9,0 4,
+bfs__random_dense_10,6,skip_edge,,,,,,,,,,4,0,,,,
+bfs__random_dense_10,7,tree_edge,,,,,,,,,,4,3,,7 9 3,,
+bfs__random_dense_10,8,tree_edge,,,,,,,,,,4,6,,7 9 3 6,,
+bfs__random_dense_10,9,skip_edge,,,,,,,,,,4,7,,,,
+bfs__random_dense_10,10,tree_edge,,,,,,,,,,4,8,,7 9 3 6 8,,
+bfs__random_dense_10,11,skip_edge,,,,,,,,,,4,9,,,,
+bfs__random_dense_10,12,dequeue,,,,,,,,7,,,,1,9 3 6 8,0 4 7,
+bfs__random_dense_10,13,skip_edge,,,,,,,,,,7,0,,,,
+bfs__random_dense_10,14,tree_edge,,,,,,,,,,7,1,,9 3 6 8 1,,
+bfs__random_dense_10,15,skip_edge,,,,,,,,,,7,4,,,,
+bfs__random_dense_10,16,tree_edge,,,,,,,,,,7,5,,9 3 6 8 1 5,,
+bfs__random_dense_10,17,skip_edge,,,,,,,,,,7,8,,,,
+bfs__random_dense_10,18,skip_edge,,,,,,,,,,7,9,,,,
+bfs__random_dense_10,19,dequeue,,,,,,,,9,,,,1,3 6 8 1 5,0 4 7 9,
+bfs__random_dense_10,20,skip_edge,,,,,,,,,,9,0,,,,
+bfs__random_dense_10,21,tree_edge,,,,,,,,,,9,2,,3 6 8 1 5 2,,
+bfs__random_dense_10,22,skip_edge,,,,,,,,,,9,3,,,,
+bfs__random_dense_10,23,skip_edge,,,,,,,,,,9,4,,,,
+bfs__random_dense_10,24,skip_edge,,,,,,,,,,9,5,,,,
+bfs__random_dense_10,25,skip_edge,,,,,,,,,,9,7,,,,
+bfs__random_dense_10,26,dequeue,,,,,,,,3,,,,2,6 8 1 5 2,0 4 7 9 3,
+bfs__random_dense_10,27,skip_edge,,,,,,,,,,3,1,,,,
+bfs__random_dense_10,28,skip_edge,,,,,,,,,,3,4,,,,
+bfs__random_dense_10,29,skip_edge,,,,,,,,,,3,6,,,,
+bfs__random_dense_10,30,skip_edge,,,,,,,,,,3,9,,,,
+bfs__random_dense_10,31,dequeue,,,,,,,,6,,,,2,8 1 5 2,0 4 7 9 3 6,
+bfs__random_dense_10,32,skip_edge,,,,,,,,,,6,3,,,,
+bfs__random_dense_10,33,skip_edge,,,,,,,,,,6,4,,,,
+bfs__random_dense_10,34,skip_edge,,,,,,,,,,6,8,,,,
+bfs__random_dense_10,35,dequeue,,,,,,,,8,,,,2,1 5 2,0 4 7 9 3 6 8,
+bfs__random_dense_10,36,skip_edge,,,,,,,,,,8,4,,,,
+bfs__random_dense_10,37,skip_edge,,,,,,,,,,8,6,,,,
+bfs__random_dense_10,38,skip_edge,,,,,,,,,,8,7,,,,
+bfs__random_dense_10,39,dequeue,,,,,,,,1,,,,2,5 2,0 4 7 9 3 6 8 1,
+bfs__random_dense_10,40,skip_edge,,,,,,,,,,1,2,,,,
+bfs__random_dense_10,41,skip_edge,,,,,,,,,,1,3,,,,
+bfs__random_dense_10,42,skip_edge,,,,,,,,,,1,7,,,,
+bfs__random_dense_10,43,dequeue,,,,,,,,5,,,,2,2,0 4 7 9 3 6 8 1 5,
+bfs__random_dense_10,44,skip_edge,,,,,,,,,,5,7,,,,
+bfs__random_dense_10,45,skip_edge,,,,,,,,,,5,9,,,,
+bfs__random_dense_10,46,dequeue,,,,,,,,2,,,,2,,0 4 7 9 3 6 8 1 5 2,
+bfs__random_dense_10,47,skip_edge,,,,,,,,,,2,1,,,,
+bfs__random_dense_10,48,skip_edge,,,,,,,,,,2,9,,,,
+bfs__random_dense_10,49,done,,,,,,,,,,,,,,0 4 7 9 3 6 8 1 5 2,
+dfs__random_dense_10,0,push,,,,,,,,0,,,,,0,,
+dfs__random_dense_10,1,visit,,,,,,,,0,,,,,,0,
+dfs__random_dense_10,2,push,,,,,,,,9,0,,,,,,
+dfs__random_dense_10,3,push,,,,,,,,7,0,,,,,,
+dfs__random_dense_10,4,push,,,,,,,,4,0,,,,,,
+dfs__random_dense_10,5,visit,,,,,,,,4,0,,,,9 7,0 4,
+dfs__random_dense_10,6,push,,,,,,,,9,4,,,,,,
+dfs__random_dense_10,7,push,,,,,,,,8,4,,,,,,
+dfs__random_dense_10,8,push,,,,,,,,7,4,,,,,,
+dfs__random_dense_10,9,push,,,,,,,,6,4,,,,,,
+dfs__random_dense_10,10,push,,,,,,,,3,4,,,,,,
+dfs__random_dense_10,11,visit,,,,,,,,3,4,,,,9 7 9 8 7 6,0 4 3,
+dfs__random_dense_10,12,push,,,,,,,,9,3,,,,,,
+dfs__random_dense_10,13,push,,,,,,,,6,3,,,,,,
+dfs__random_dense_10,14,push,,,,,,,,1,3,,,,,,
+dfs__random_dense_10,15,visit,,,,,,,,1,3,,,,9 7 9 8 7 6 9 6,0 4 3 1,
+dfs__random_dense_10,16,push,,,,,,,,7,1,,,,,,
+dfs__random_dense_10,17,push,,,,,,,,2,1,,,,,,
+dfs__random_dense_10,18,visit,,,,,,,,2,1,,,,9 7 9 8 7 6 9 6 7,0 4 3 1 2,
+dfs__random_dense_10,19,push,,,,,,,,9,2,,,,,,
+dfs__random_dense_10,20,visit,,,,,,,,9,2,,,,9 7 9 8 7 6 9 6 7,0 4 3 1 2 9,
+dfs__random_dense_10,21,push,,,,,,,,7,9,,,,,,
+dfs__random_dense_10,22,push,,,,,,,,5,9,,,,,,
+dfs__random_dense_10,23,visit,,,,,,,,5,9,,,,9 7 9 8 7 6 9 6 7 7,0 4 3 1 2 9 5,
+dfs__random_dense_10,24,push,,,,,,,,7,5,,,,,,
+dfs__random_dense_10,25,visit,,,,,,,,7,5,,,,9 7 9 8 7 6 9 6 7 7,0 4 3 1 2 9 5 7,
+dfs__random_dense_10,26,push,,,,,,,,8,7,,,,,,
+dfs__random_dense_10,27,visit,,,,,,,,8,7,,,,9 7 9 8 7 6 9 6 7 7,0 4 3 1 2 9 5 7 8,
+dfs__random_dense_10,28,push,,,,,,,,6,8,,,,,,
+dfs__random_dense_10,29,visit,,,,,,,,6,8,,,,9 7 9 8 7 6 9 6 7 7,0 4 3 1 2 9 5 7 8 6,
+dfs__random_dense_10,30,skip_node,,,,,,,,7,,,,,,,
+dfs__random_dense_10,31,skip_node,,,,,,,,7,,,,,,,
+dfs__random_dense_10,32,skip_node,,,,,,,,6,,,,,,,
+dfs__random_dense_10,33,skip_node,,,,,,,,9,,,,,,,
+dfs__random_dense_10,34,skip_node,,,,,,,,6,,,,,,,
+dfs__random_dense_10,35,skip_node,,,,,,,,7,,,,,,,
+dfs__random_dense_10,36,skip_node,,,,,,,,8,,,,,,,
+dfs__random_dense_10,37,skip_node,,,,,,,,9,,,,,,,
+dfs__random_dense_10,38,skip_node,,,,,,,,7,,,,,,,
+dfs__random_dense_10,39,skip_node,,,,,,,,9,,,,,,,
+dfs__random_dense_10,40,done,,,,,,,,,,,,,,0 4 3 1 2 9 5 7 8 6,
+bfs__disconnected_10,0,enqueue,,,,,,,,0,,,,,0,,
+bfs__disconnected_10,1,dequeue,,,,,,,,0,,,,0,,0,
+bfs__disconnected_10,2,tree_edge,,,,,,,,,,0,1,,1,,
+bfs__disconnected_10,3,tree_edge,,,,,,,,,,0,2,,1 2,,
+bfs__disconnected_10,4,tree_edge,,,,,,,,,,0,3,,1 2 3,,
+bfs__disconnected_10,5,tree_edge,,,,,,,,,,0,4,,1 2 3 4,,
+bfs__disconnected_10,6,dequeue,,,,,,,,1,,,,1,2 3 4,0 1,
+bfs__disconnected_10,7,skip_edge,,,,,,,,,,1,0,,,,
+bfs__disconnected_10,8,skip_edge,,,,,,,,,,1,2,,,,
+bfs__disconnected_10,9,skip_edge,,,,,,,,,,1,3,,,,
+bfs__disconnected_10,10,skip_edge,,,,,,,,,,1,4,,,,
+bfs__disconnected_10,11,dequeue,,,,,,,,2,,,,1,3 4,0 1 2,
+bfs__disconnected_10,12,skip_edge,,,,,,,,,,2,0,,,,
+bfs__disconnected_10,13,skip_edge,,,,,,,,,,2,1,,,,
+bfs__disconnected_10,14,skip_edge,,,,,,,,,,2,3,,,,
+bfs__disconnected_10,15,skip_edge,,,,,,,,,,2,4,,,,
+bfs__disconnected_10,16,dequeue,,,,,,,,3,,,,1,4,0 1 2 3,
+bfs__disconnected_10,17,skip_edge,,,,,,,,,,3,0,,,,
+bfs__disconnected_10,18,skip_edge,,,,,,,,,,3,1,,,,
+bfs__disconnected_10,19,skip_edge,,,,,,,,,,3,2,,,,
+bfs__disconnected_10,20,dequeue,,,,,,,,4,,,,1,,0 1 2 3 4,
+bfs__disconnected_10,21,skip_edge,,,,,,,,,,4,0,,,,
+bfs__disconnected_10,22,skip_edge,,,,,,,,,,4,1,,,,
+bfs__disconnected_10,23,skip_edge,,,,,,,,,,4,2,,,,
+bfs__disconnected_10,24,done,,,,,,,,,,,,,,0 1 2 3 4,
+dfs__disconnected_10,0,push,,,,,,,,0,,,,,0,,
+dfs__disconnected_10,1,visit,,,,,,,,0,,,,,,0,
+dfs__disconnected_10,2,push,,,,,,,,4,0,,,,,,
+dfs__disconnected_10,3,push,,,,,,,,3,0,,,,,,
+dfs__disconnected_10,4,push,,,,,,,,2,0,,,,,,
+dfs__disconnected_10,5,push,,,,,,,,1,0,,,,,,
+dfs__disconnected_10,6,visit,,,,,,,,1,0,,,,4 3 2,0 1,
+dfs__disconnected_10,7,push,,,,,,,,4,1,,,,,,
+dfs__disconnected_10,8,push,,,,,,,,3,1,,,,,,
+dfs__disconnected_10,9,push,,,,,,,,2,1,,,,,,
+dfs__disconnected_10,10,visit,,,,,,,,2,1,,,,4 3 2 4 3,0 1 2,
+dfs__disconnected_10,11,push,,,,,,,,4,2,,,,,,
+dfs__disconnected_10,12,push,,,,,,,,3,2,,,,,,
+dfs__disconnected_10,13,visit,,,,,,,,3,2,,,,4 3 2 4 3 4,0 1 2 3,
+dfs__disconnected_10,14,visit,,,,,,,,4,2,,,,4 3 2 4 3,0 1 2 3 4,
+dfs__disconnected_10,15,skip_node,,,,,,,,3,,,,,,,
+dfs__disconnected_10,16,skip_node,,,,,,,,4,,,,,,,
+dfs__disconnected_10,17,skip_node,,,,,,,,2,,,,,,,
+dfs__disconnected_10,18,skip_node,,,,,,,,3,,,,,,,
+dfs__disconnected_10,19,skip_node,,,,,,,,4,,,,,,,
+dfs__disconnected_10,20,done,,,,,,,,,,,,,,0 1 2 3 4,
